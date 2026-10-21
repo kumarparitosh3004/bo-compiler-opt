@@ -47,6 +47,41 @@ Re-running the same command resumes an interrupted run.
 Settings are frozen in `config/experiment.yaml` (budget, seeds, repetitions, BO
 hyperparameters, timeouts). Change them only before Step A, and record the change.
 
+## Re-running on a second machine
+
+The committed `results/` were measured on one Windows laptop (GCC 16.1,
+x86-64). A sweep on another machine must be kept separate, because resuming
+replays the recorded evaluations into the optimizer and the two sets of timings
+would end up in one objective. `run_search.py` refuses to resume a run whose
+manifest records a different compiler version or CPU architecture, and names
+the drift when it does.
+
+Use `--tag` on both steps to write beside the study instead:
+
+```bash
+python scripts/run_all.py --tag mac                      # results/search/*_mac
+python scripts/final_measure.py --tag mac                # results/final/*_mac.csv
+```
+
+Use the same tag for both: `final_measure.py --tag mac` reads the `_mac`
+searches and writes `candidates_mac.csv` / `final_runs_mac.csv`, so the
+committed study files are never overwritten.
+
+## Portability changes made after the study
+
+- `-ffp-contract=off` is now in `fixed_flags` for every platform. GCC's default
+  may fuse `a*b+c` into one FMA, which rounds once instead of twice. On AArch64
+  (Apple Silicon, ARM64 Linux) FMA is in the baseline ISA, so `-O3` contracted
+  while `-O0` did not, `benchmarks/arith` returned a different Mandelbrot
+  checksum at the two levels, and the correctness check failed. Baseline x86-64
+  has no FMA and never contracted, so the flag is a no-op on the machine that
+  produced `results/` and those numbers stand.
+- Code size is read per object format. GNU `size` prints Berkeley format, whose
+  first column is `.text`; Apple's `size` prints page-aligned Mach-O *segments*,
+  which read 16384 for every small binary here, so `size -m` is used on that
+  format to get the real `__text` section. `check_setup.py` warns if the `size`
+  on this machine reports the same code size at `-O0` and `-O3`.
+
 ## What each table/figure is built from
 
 | Item | Source data |

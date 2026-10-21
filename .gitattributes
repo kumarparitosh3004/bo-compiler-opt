@@ -1,0 +1,5 @@
+# Keep line endings correct for the files where they change behaviour.
+# Shell scripts must be LF: a CRLF .sh fails on Linux with a confusing
+# "bad interpreter" or "command not found" error. Batch files must be CRLF.
+*.sh  text eol=lf
+*.bat text eol=crlf

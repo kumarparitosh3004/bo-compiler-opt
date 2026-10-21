@@ -3,7 +3,11 @@
 Runs sequentially on one machine (parallel runs would disturb each other's timings).
 Interrupted runs resume where they stopped; finished runs are skipped quickly.
 
-usage: python scripts/run_all.py [--bench ...] [--methods bo random] [--seeds 0 1 2] [--budget 50]
+usage: python scripts/run_all.py [--bench ...] [--methods bo random] [--seeds 0 1 2]
+                                 [--budget 50] [--tag NAME]
+
+--tag NAME writes to <bench>_<method>_s<seed>_NAME, which keeps a sweep on a new
+machine beside an existing one instead of trying to resume it.
 """
 from __future__ import annotations
 
@@ -26,13 +30,14 @@ def main() -> int:
     ap.add_argument("--methods", nargs="*", default=cfg["methods"])
     ap.add_argument("--seeds", nargs="*", type=int, default=cfg["seeds"])
     ap.add_argument("--budget", type=int, default=cfg["budget"])
+    ap.add_argument("--tag", default="", help="suffix for every experiment id, e.g. 'mac'")
     a = ap.parse_args()
     t0 = time.time()
     runs = [(b, m, s) for s in a.seeds for b in a.bench for m in a.methods]
     for i, (b, m, s) in enumerate(runs, 1):
         print(f"\n=== run {i}/{len(runs)}: {b} {m} seed {s} (elapsed {(time.time() - t0) / 60:.1f} min) ===",
               flush=True)
-        summary = run_search(b, m, s, cfg, budget=a.budget)
+        summary = run_search(b, m, s, cfg, budget=a.budget, tag=a.tag)
         print(f"=== done: best {summary.get('best_pct_faster_than_O3')}% vs -O3 during search, "
               f"{summary['unique_binaries']} unique binaries, {summary['measured_runs']} measured", flush=True)
     print(f"\nsweep finished in {(time.time() - t0) / 3600:.2f} h")

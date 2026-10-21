@@ -9,3 +9,6 @@ results/failures/
 config/local.yaml
 benchmarks/custom/
 results/web/
+
+# local backup of the Windows study results, not part of the repo
+results_windows_study_backup/

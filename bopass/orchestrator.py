@@ -106,6 +106,20 @@ def run_search(bench_name: str, method: str, seed: int, cfg: dict, budget: int |
     opt = make_optimizer(method, space, seed, init, cfg)
 
     manifest = store.read_json("manifest.json")
+    env_now = collect(cc, [resolve(cfg["flags_file"]), bench.source])
+    if manifest is not None:
+        # Resuming replays the recorded evaluations into the optimizer, so the old
+        # and new measurements end up in one objective. That is only sound on the
+        # same toolchain and machine; otherwise the run must be kept separate.
+        prev = manifest.get("env") or {}
+        drift = [k for k in ("compiler_version", "machine")
+                 if prev.get(k) is not None and prev.get(k) != env_now.get(k)]
+        if drift:
+            detail = "; ".join(f"{k} {prev.get(k)!r} -> {env_now.get(k)!r}" for k in drift)
+            raise SystemExit(
+                f"[{exp_id}] refusing to resume: recorded on a different setup ({detail}).\n"
+                f"Timings from two machines must not be mixed into one search.\n"
+                f"Use --tag NAME to start a separate run, or delete {store.dir} to redo it.")
     if manifest is None:
         manifest = {
             "experiment_id": exp_id, "benchmark": bench_name, "args": list(bench.args),
@@ -117,7 +131,7 @@ def run_search(bench_name: str, method: str, seed: int, cfg: dict, budget: int |
             "objective": ("y = ln(median per-round time ratio to a paired -O3 build)" if paired
                           else "y = ln(median time / in-run -O3 median)"),
             "base_levels": list(space.base_levels), "dim": space.dim,
-            "env": collect(cc, [resolve(cfg["flags_file"]), bench.source]),
+            "env": env_now,
             "resumed_at": [],
         }
     else:

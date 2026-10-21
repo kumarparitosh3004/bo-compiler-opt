@@ -96,11 +96,18 @@ Step-by-step instructions are in **[HOW_TO_RUN.md](HOW_TO_RUN.md)**.
 | System | One-time setup | Start the website |
 | --- | --- | --- |
 | macOS | `bash setup_mac.sh` | `bash run_mac.sh` → http://127.0.0.1:5050 |
+| Linux | `bash setup_linux.sh` | `bash run_linux.sh` → http://127.0.0.1:5000 |
 | Windows | double-click `setup_windows.bat` | double-click `run_windows.bat` → http://127.0.0.1:5000 |
 
 Requirements: GCC 10+ (the study used GCC 16.1, MinGW-w64 on Windows; on macOS
-Homebrew GCC, because `gcc` there is Apple clang) and Python 3.10+.
-`python scripts/check_setup.py` checks an existing installation.
+Homebrew GCC, because `gcc` there is Apple clang; on Linux the system `gcc`),
+binutils `size` for the code-size columns, and Python 3.10+.
+`python scripts/check_setup.py` checks an existing installation, including
+whether `size` reports real code sizes on this platform.
+
+Verified on Windows x86-64 (GCC 16.1, MinGW-w64) and macOS arm64 (GCC 16.2,
+Homebrew). To re-run the study on a second machine, keep it separate with
+`--tag`; see [EXPERIMENTS.md](EXPERIMENTS.md).
 
 Manual setup:
 

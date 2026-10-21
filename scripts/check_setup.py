@@ -76,6 +76,27 @@ def main() -> int:
         return 1
     ok(f"{cc}: {ver}")
 
+    # Binary size feeds T4 and F4. `size` output differs by platform, so confirm
+    # it reports real code sizes here rather than a constant.
+    from bopass.compiler_driver import size_tool, text_size
+    tool = size_tool(cc)
+    if not tool:
+        warn("no 'size' tool found; binary sizes will be empty "
+             "(Linux: install binutils; Windows: it ships with WinLibs GCC)")
+    else:
+        b0 = load_benchmarks()["recursive"]
+        sizes = []
+        for lvl in ("-O0", "-O3"):
+            cr = compile(b0, [lvl], BUILD_DIR / "check", cc=cc, fixed=fixed)
+            sizes.append(text_size(cr.exe_path, tool) if cr.status == OK else None)
+        if None in sizes:
+            warn(f"'{tool}' did not report a code size; binary sizes will be empty")
+        elif sizes[0] == sizes[1]:
+            warn(f"'{tool}' reports the same code size ({sizes[0]}) at -O0 and -O3, "
+                 "so it is measuring a padded segment; binary-size results will be meaningless")
+        else:
+            ok(f"code size via {tool}: -O0 {sizes[0]} B, -O3 {sizes[1]} B")
+
     print("\nBenchmarks (build -O0 and -O3, run, compare with reference output)")
     benches = load_benchmarks()
     names = ["recursive", "sort"] if a.quick else list(benches)

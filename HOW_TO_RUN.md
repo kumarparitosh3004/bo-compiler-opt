@@ -47,6 +47,36 @@ port 5000 for AirPlay.
 
 ---
 
+## Linux
+
+1. Open a terminal in the project folder.
+2. Install the compiler and Python if they are missing:
+
+   ```bash
+   sudo apt install build-essential binutils python3 python3-venv   # Debian/Ubuntu
+   sudo dnf install gcc binutils python3 python3-pip                # Fedora/RHEL
+   sudo pacman -S base-devel binutils python                        # Arch
+   ```
+
+3. Run the setup. It must end with **All checks passed**:
+
+   ```bash
+   bash setup_linux.sh
+   ```
+
+4. **Start the website**, every time:
+
+   ```bash
+   bash run_linux.sh
+   ```
+
+   The browser opens at **http://127.0.0.1:5000**. Ctrl+C stops it.
+
+Unlike macOS, `gcc` on Linux is already real GCC, so there is nothing to install
+from a third-party package manager.
+
+---
+
 ## Windows
 
 1. **Install Python 3.12** from https://www.python.org/downloads/. During
@@ -68,7 +98,7 @@ cannot load programs from very long paths.
 ## Checking an installation
 
 ```bash
-.venv/bin/python scripts/check_setup.py              # macOS
+.venv/bin/python scripts/check_setup.py              # macOS and Linux
 .venv\Scripts\python scripts\check_setup.py          # Windows
 ```
 

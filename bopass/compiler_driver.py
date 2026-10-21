@@ -56,13 +56,37 @@ def size_tool(cc: str) -> str | None:
     return shutil.which("size")
 
 
+def _macho_text_size(tool: str, exe: Path) -> int | None:
+    """Bytes in the Mach-O __text section, read from `size -m`."""
+    try:
+        out = subprocess.run([tool, "-m", str(exe)], capture_output=True, text=True, timeout=30).stdout
+        for line in out.splitlines():
+            s = line.strip()
+            if s.startswith("Section __text:"):
+                return int(s.split(":", 1)[1].strip())
+    except (OSError, subprocess.SubprocessError, ValueError, IndexError):
+        return None
+    return None
+
+
 def text_size(exe: Path, tool: str | None) -> int | None:
-    """Size of the code (.text) segment in bytes, via binutils `size` (Berkeley format)."""
+    """Size of the machine code in bytes.
+
+    GNU binutils `size` prints Berkeley format, whose first column is .text.
+    Apple's `size` prints Mach-O *segment* sizes instead, and __TEXT is page
+    aligned, so it reads 16384 for every small binary and carries no
+    information. On that format `size -m` is used to read the real __text
+    section, which is what the Berkeley first column means elsewhere.
+    """
     if not tool:
         return None
     try:
         out = subprocess.run([tool, str(exe)], capture_output=True, text=True, timeout=30).stdout
         lines = out.strip().splitlines()
+        if not lines:
+            return None
+        if "__TEXT" in lines[0]:
+            return _macho_text_size(tool, exe)
         return int(lines[1].split()[0]) if len(lines) >= 2 else None
     except (OSError, subprocess.SubprocessError, ValueError, IndexError):
         return None

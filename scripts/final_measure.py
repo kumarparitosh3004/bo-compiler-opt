@@ -10,7 +10,11 @@ once in a freshly shuffled order. All reported comparisons use these numbers.
 --alt runs Step D: the same binaries on the larger `args_alt` input, checked
 against a reference produced by the -O0 build on that input.
 
-usage: python scripts/final_measure.py [--bench ...] [--reps 15] [--alt]
+usage: python scripts/final_measure.py [--bench ...] [--reps 15] [--alt] [--tag NAME]
+
+--tag NAME reads the searches written by run_all.py --tag NAME and writes
+candidates_NAME.csv / final_runs_NAME.csv, so a re-measurement on a new
+machine never overwrites the committed study results.
 """
 from __future__ import annotations
 
@@ -38,12 +42,12 @@ from bopass.space import SearchSpace  # noqa: E402
 OUT = RESULTS_DIR / "final"
 
 
-def candidates_for(bench: str, cfg: dict, space: SearchSpace) -> list[dict]:
+def candidates_for(bench: str, cfg: dict, space: SearchSpace, tag: str = "") -> list[dict]:
     cands = [{"candidate": lvl, "method": "level", "seed": None, "flags": [f"-{lvl}"]}
              for lvl in ("O0", "O1", "O2", "O3")]
     for method in cfg["methods"]:
         for seed in cfg["seeds"]:
-            p = RESULTS_DIR / "search" / f"{bench}_{method}_s{seed}" / "summary.json"
+            p = RESULTS_DIR / "search" / f"{bench}_{method}_s{seed}{tag}" / "summary.json"
             if not p.exists():
                 print(f"  warning: no search result {p.parent.name}; skipped")
                 continue
@@ -65,12 +69,14 @@ def main() -> int:
     ap.add_argument("--reps", type=int, default=cfg.get("final_reps", 15))
     ap.add_argument("--alt", action="store_true", help="Step D: larger args_alt input")
     ap.add_argument("--seed", type=int, default=12345, help="seed for the round shuffling")
+    ap.add_argument("--tag", default="", help="read <bench>_<method>_s<seed>_NAME searches")
     a = ap.parse_args()
     cc, fixed = compiler_path(cfg), fixed_flags(cfg)
     benches = load_benchmarks()
     space = SearchSpace.from_yaml(resolve(cfg["flags_file"]))
     rng = np.random.default_rng(a.seed)
-    suffix = "_alt" if a.alt else ""
+    tag = f"_{a.tag}" if a.tag and not a.tag.startswith("_") else a.tag
+    suffix = tag + ("_alt" if a.alt else "")
     OUT.mkdir(parents=True, exist_ok=True)
     cand_rows, run_rows = [], []
 
@@ -78,7 +84,7 @@ def main() -> int:
         b = benches[name]
         args = b.args_alt if a.alt else b.args
         print(f"\n== {name} (args {' '.join(args)})")
-        cands = candidates_for(name, cfg, space)
+        cands = candidates_for(name, cfg, space, tag)
 
         # build (3 compiles, median compile time) and check correctness (Step C)
         ref = None
