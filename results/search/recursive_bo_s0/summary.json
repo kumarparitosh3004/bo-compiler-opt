@@ -1,0 +1,33 @@
+{
+  "evaluations": 50,
+  "unique_binaries": 32,
+  "measured_runs": 32,
+  "status_counts": {
+    "OK": 50
+  },
+  "total_compile_time_s": 70.94,
+  "search_wall_time_s": 199.52,
+  "t_ref_O3_ns": null,
+  "best_eval_id": 27,
+  "best_key": "11100110010001",
+  "best_flags": "-O3 -fno-ipa-cp-clone -fno-optimize-sibling-calls -fno-tree-partial-pre -fno-gcse-after-reload -fno-tree-slp-vectorize -fno-unswitch-loops",
+  "best_y": -0.150407,
+  "best_pct_faster_than_O3": 13.964,
+  "best_diff_vs_O3": "-ipa-cp-clone -optimize-sibling-calls -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -unswitch-loops",
+  "length_scales": {
+    "base_level": 2.366431962315578,
+    "inline-functions": 0.016064693258153157,
+    "inline-small-functions": 999.9999999999998,
+    "ipa-cp-clone": 25.317992251823473,
+    "optimize-sibling-calls": 0.032376064287452724,
+    "gcse": 8.869389941648823,
+    "tree-pre": 0.06405422999897291,
+    "tree-partial-pre": 10.480060378387849,
+    "gcse-after-reload": 13.025650801644598,
+    "tree-loop-vectorize": 8.38680258288089,
+    "tree-slp-vectorize": 999.9999999999998,
+    "unroll-all-loops": 0.062351664803832425,
+    "unswitch-loops": 0.035634913244931475,
+    "split-paths": 999.9999999999998
+  }
+}

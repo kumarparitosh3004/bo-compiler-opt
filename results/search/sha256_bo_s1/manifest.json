@@ -1,0 +1,73 @@
+{
+  "experiment_id": "sha256_bo_s1",
+  "benchmark": "sha256",
+  "args": [
+    "C:\\Users\\Krish Singh\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\scratch-workspaces\\aa579763-fa5d-433a-b943-1bb9d057b1da\\c6dd4953-a73b-47fc-9b08-e66c2ef861e5\\scratch-2026-10-13-b58ce2\\bo-compiler-opt\\benchmarks\\data\\corpus.txt",
+    "15"
+  ],
+  "method": "bo",
+  "seed": 1,
+  "budget": 50,
+  "n_init": 8,
+  "bo": {
+    "xi": 0.01,
+    "pool_size": 2000,
+    "top_k_neighbours": 5,
+    "gp_restarts": 5
+  },
+  "failure_penalty": 1.0,
+  "search_reps": 5,
+  "warmup": 1,
+  "t_ref_O3_ns": null,
+  "run_timeout_s": 60.0,
+  "fixed_flags": [
+    "-Wl,--no-insert-timestamp"
+  ],
+  "flags": [
+    "inline-functions",
+    "inline-small-functions",
+    "ipa-cp-clone",
+    "optimize-sibling-calls",
+    "gcse",
+    "tree-pre",
+    "tree-partial-pre",
+    "gcse-after-reload",
+    "tree-loop-vectorize",
+    "tree-slp-vectorize",
+    "unroll-all-loops",
+    "unswitch-loops",
+    "split-paths"
+  ],
+  "objective": "y = ln(median per-round time ratio to a paired -O3 build)",
+  "base_levels": [
+    "-O2",
+    "-O3"
+  ],
+  "dim": 14,
+  "env": {
+    "timestamp": "2026-10-15T22:53:48",
+    "git_commit": null,
+    "compiler": "C:/mingw64/bin/gcc.exe",
+    "compiler_version": "gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "cpu_count": 16,
+    "python": "3.12.5",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "PyYAML": "6.0.3",
+      "pytest": "9.1.1"
+    },
+    "file_hashes": {
+      "config\\flags_gcc.yaml": "eb8ff50b0fc89f64",
+      "benchmarks\\sha256\\sha256.c": "17cbacb5e14afd1f"
+    }
+  },
+  "resumed_at": [],
+  "finished_at": "2026-10-15T22:56:48"
+}

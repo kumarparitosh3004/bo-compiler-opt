@@ -1,0 +1,51 @@
+22:24:30 [sha256_random_s0] 1/50 key=11111111111011 status=OK median=219.6ms y=+0.0200 best=+0.0200
+22:24:33 [sha256_random_s0] 2/50 key=01111100011111 status=OK median=215.4ms y=-0.0052 best=-0.0052
+22:24:37 [sha256_random_s0] 3/50 key=00111010000100 status=OK median=224.9ms y=+0.0437 best=-0.0052
+22:24:41 [sha256_random_s0] 4/50 key=10000010000100 status=OK median=220.3ms y=+0.0357 best=-0.0052
+22:24:45 [sha256_random_s0] 5/50 key=01001100110001 status=OK median=219.2ms y=+0.0041 best=-0.0052
+22:24:49 [sha256_random_s0] 6/50 key=01110011101110 status=OK median=224.3ms y=+0.0390 best=-0.0052
+22:24:53 [sha256_random_s0] 7/50 key=01110100010000 status=OK median=220.6ms y=+0.0282 best=-0.0052
+22:24:57 [sha256_random_s0] 8/50 key=01111111001011 status=OK median=244.2ms y=+0.1146 best=-0.0052
+22:25:04 [sha256_random_s0] 9/50 key=00111111110101 status=OK median=218.6ms y=-0.0026 best=-0.0052
+22:25:08 [sha256_random_s0] 10/50 key=11101000111010 status=OK median=217.5ms y=-0.0079 best=-0.0079
+22:25:12 [sha256_random_s0] 11/50 key=01010000100011 status=OK median=221.8ms y=+0.0391 best=-0.0079
+22:25:16 [sha256_random_s0] 12/50 key=00000011011000 status=OK median=221.6ms y=+0.0207 best=-0.0079
+22:25:20 [sha256_random_s0] 13/50 key=11101111110110 status=OK median=211.6ms y=-0.0261 best=-0.0261
+22:25:21 [sha256_random_s0] 14/50 key=01100100111111 status=OK median=215.4ms y=-0.0052 best=-0.0261 (reused)
+22:25:25 [sha256_random_s0] 15/50 key=10001100111011 status=OK median=218.8ms y=+0.0132 best=-0.0261
+22:25:28 [sha256_random_s0] 16/50 key=11100000001011 status=OK median=206.6ms y=-0.0466 best=-0.0466
+22:25:32 [sha256_random_s0] 17/50 key=11100100000111 status=OK median=203.2ms y=-0.0690 best=-0.0690
+22:25:36 [sha256_random_s0] 18/50 key=01000110111111 status=OK median=217.4ms y=-0.0076 best=-0.0690
+22:25:40 [sha256_random_s0] 19/50 key=11110000100001 status=OK median=208.6ms y=-0.0516 best=-0.0690
+22:25:44 [sha256_random_s0] 20/50 key=11101100100100 status=OK median=203.5ms y=-0.0773 best=-0.0773
+22:25:48 [sha256_random_s0] 21/50 key=10001111110101 status=OK median=221.1ms y=+0.0090 best=-0.0773
+22:25:52 [sha256_random_s0] 22/50 key=11011000100011 status=OK median=206.5ms y=-0.0542 best=-0.0773
+22:25:56 [sha256_random_s0] 23/50 key=01110110101101 status=OK median=222.2ms y=+0.0206 best=-0.0773
+22:26:03 [sha256_random_s0] 24/50 key=10110100011001 status=OK median=217.8ms y=+0.0070 best=-0.0773
+22:26:07 [sha256_random_s0] 25/50 key=00100111010100 status=OK median=219.7ms y=+0.0112 best=-0.0773
+22:26:10 [sha256_random_s0] 26/50 key=10101100100001 status=OK median=205.0ms y=-0.0494 best=-0.0773
+22:26:14 [sha256_random_s0] 27/50 key=01000010110111 status=OK median=220.3ms y=+0.0073 best=-0.0773
+22:26:15 [sha256_random_s0] 28/50 key=01010010010111 status=OK median=220.3ms y=+0.0073 best=-0.0773 (reused)
+22:26:19 [sha256_random_s0] 29/50 key=01101110001010 status=OK median=239.5ms y=+0.1027 best=-0.0773
+22:26:23 [sha256_random_s0] 30/50 key=10010010001111 status=OK median=223.1ms y=+0.0281 best=-0.0773
+22:26:27 [sha256_random_s0] 31/50 key=10011011001111 status=OK median=221.5ms y=+0.0075 best=-0.0773
+22:26:31 [sha256_random_s0] 32/50 key=01011011000100 status=OK median=221.9ms y=-0.0063 best=-0.0773
+22:26:35 [sha256_random_s0] 33/50 key=01100000001111 status=OK median=201.2ms y=-0.0870 best=-0.0870
+22:26:36 [sha256_random_s0] 34/50 key=10001000000001 status=OK median=206.5ms y=-0.0542 best=-0.0870 (reused)
+22:26:43 [sha256_random_s0] 35/50 key=00010000011010 status=OK median=220.6ms y=+0.0262 best=-0.0870
+22:26:44 [sha256_random_s0] 36/50 key=01100000101100 status=OK median=201.2ms y=-0.0870 best=-0.0870 (reused)
+22:26:48 [sha256_random_s0] 37/50 key=10010110000011 status=OK median=223.9ms y=+0.0194 best=-0.0870
+22:26:52 [sha256_random_s0] 38/50 key=01011100110100 status=OK median=217.1ms y=-0.0012 best=-0.0870
+22:26:56 [sha256_random_s0] 39/50 key=00110010001000 status=OK median=236.2ms y=+0.0814 best=-0.0870
+22:27:00 [sha256_random_s0] 40/50 key=00010100000010 status=OK median=223.9ms y=+0.0209 best=-0.0870
+22:27:01 [sha256_random_s0] 41/50 key=01100010100101 status=OK median=224.9ms y=+0.0437 best=-0.0870 (reused)
+22:27:02 [sha256_random_s0] 42/50 key=11010110100001 status=OK median=223.9ms y=+0.0194 best=-0.0870 (reused)
+22:27:03 [sha256_random_s0] 43/50 key=00011100000010 status=OK median=223.9ms y=+0.0209 best=-0.0870 (reused)
+22:27:04 [sha256_random_s0] 44/50 key=01110111010100 status=OK median=218.6ms y=-0.0026 best=-0.0870 (reused)
+22:27:08 [sha256_random_s0] 45/50 key=01100111000010 status=OK median=236.9ms y=+0.0865 best=-0.0870
+22:27:12 [sha256_random_s0] 46/50 key=11010100110010 status=OK median=217.1ms y=+0.0014 best=-0.0870
+22:27:15 [sha256_random_s0] 47/50 key=10101000001001 status=OK median=198.8ms y=-0.0639 best=-0.0870
+22:27:19 [sha256_random_s0] 48/50 key=01111100001010 status=OK median=216.1ms y=+0.0248 best=-0.0870
+22:27:23 [sha256_random_s0] 49/50 key=10111110010111 status=OK median=214.7ms y=+0.0204 best=-0.0870
+22:27:24 [sha256_random_s0] 50/50 key=11011110100011 status=OK median=223.9ms y=+0.0194 best=-0.0870 (reused)
+22:27:24 [sha256_random_s0] best y=-0.0870 (+8.33% vs -O3 during search) flags: base -O2 -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops

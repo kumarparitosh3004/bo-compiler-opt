@@ -1,0 +1,53 @@
+14:02:19 [stencil_bo_s0] 1/50 key=11111111111011 status=OK median=239.6ms y=-0.0352 best=-0.0352
+14:02:28 [stencil_bo_s0] 2/50 key=01111100011111 status=OK median=328.7ms y=+0.3178 best=-0.0352
+14:02:32 [stencil_bo_s0] 3/50 key=00111010000100 status=OK median=322.1ms y=+0.2842 best=-0.0352
+14:02:41 [stencil_bo_s0] 4/50 key=10000010000100 status=OK median=327.0ms y=+0.2007 best=-0.0352
+14:02:50 [stencil_bo_s0] 5/50 key=01001100110001 status=OK median=350.1ms y=+0.3277 best=-0.0352
+14:02:50 [stencil_bo_s0] 6/50 key=01110011101110 status=OK median=322.1ms y=+0.2842 best=-0.0352 (reused)
+14:02:51 [stencil_bo_s0] 7/50 key=01110100010000 status=OK median=350.1ms y=+0.3277 best=-0.0352 (reused)
+14:03:00 [stencil_bo_s0] 8/50 key=01111111001011 status=OK median=346.0ms y=+0.3717 best=-0.0352
+14:03:09 [stencil_bo_s0] 9/50 key=10000100000110 status=OK median=349.6ms y=+0.2023 best=-0.0352 EI=7.12e-03
+14:03:10 [stencil_bo_s0] 10/50 key=10111010000100 status=OK median=327.0ms y=+0.2007 best=-0.0352 EI=8.10e-03 (reused)
+14:03:20 [stencil_bo_s0] 11/50 key=10111010000000 status=OK median=381.4ms y=+0.2662 best=-0.0352 EI=5.11e-03
+14:03:21 [stencil_bo_s0] 12/50 key=11110011000001 status=OK median=381.4ms y=+0.2662 best=-0.0352 EI=6.88e-03 (reused)
+14:03:22 [stencil_bo_s0] 13/50 key=11000000100100 status=OK median=327.0ms y=+0.2007 best=-0.0352 EI=8.53e-03 (reused)
+14:03:29 [stencil_bo_s0] 14/50 key=11111000010110 status=OK median=248.4ms y=+0.0753 best=-0.0352 EI=5.34e-05
+14:03:38 [stencil_bo_s0] 15/50 key=11000000010000 status=OK median=279.2ms y=+0.0472 best=-0.0352 EI=4.21e-13
+14:03:48 [stencil_bo_s0] 16/50 key=10000110011100 status=OK median=313.6ms y=+0.0261 best=-0.0352 EI=7.17e-04
+14:05:35 [stencil_bo_s0] 17/50 key=00010011011110 status=COMPILE_TIMEOUT median=- y=fail best=-0.0352 EI=1.28e-14
+14:15:39 [stencil_bo_s0] 18/50 key=00000000100100 status=COMPILE_TIMEOUT median=- y=fail best=-0.0352 EI=3.39e-02
+14:15:58 [stencil_bo_s0] 19/50 key=10011011110011 status=OK median=486.8ms y=+0.0101 best=-0.0352 EI=8.74e-03
+14:16:10 [stencil_bo_s0] 20/50 key=11100100110100 status=OK median=349.3ms y=-0.0406 best=-0.0406 EI=5.66e-03
+14:16:22 [stencil_bo_s0] 21/50 key=11101100110111 status=OK median=319.1ms y=-0.0367 best=-0.0406 EI=3.53e-02
+14:16:26 [stencil_bo_s0] 22/50 key=10000110010100 status=OK median=319.1ms y=-0.0367 best=-0.0406 EI=4.61e-02 (reused)
+14:16:28 [stencil_bo_s0] 23/50 key=11100110111100 status=OK median=313.6ms y=+0.0261 best=-0.0406 EI=5.41e-03 (reused)
+14:16:30 [stencil_bo_s0] 24/50 key=11110100100100 status=OK median=349.6ms y=+0.2023 best=-0.0406 EI=5.36e-02 (reused)
+14:16:42 [stencil_bo_s0] 25/50 key=11111100111011 status=OK median=330.7ms y=-0.0313 best=-0.0406 EI=7.15e-02
+14:16:44 [stencil_bo_s0] 26/50 key=11001111101001 status=OK median=350.1ms y=+0.3277 best=-0.0406 EI=3.93e-02 (reused)
+14:16:51 [stencil_bo_s0] 27/50 key=11111111010011 status=OK median=345.2ms y=+0.0033 best=-0.0406 EI=2.93e-03
+14:17:03 [stencil_bo_s0] 28/50 key=10100111110000 status=OK median=346.5ms y=+0.0336 best=-0.0406 EI=5.11e-02
+14:17:06 [stencil_bo_s0] 29/50 key=10101100101011 status=OK median=350.1ms y=+0.3277 best=-0.0406 EI=5.92e-02 (reused)
+14:17:09 [stencil_bo_s0] 30/50 key=11010110100101 status=OK median=349.6ms y=+0.2023 best=-0.0406 EI=7.56e-02 (reused)
+14:17:12 [stencil_bo_s0] 31/50 key=11001111110010 status=OK median=346.5ms y=+0.0336 best=-0.0406 EI=5.42e-02 (reused)
+14:17:24 [stencil_bo_s0] 32/50 key=10001011010100 status=OK median=343.9ms y=-0.0521 best=-0.0521 EI=2.50e-02
+14:17:28 [stencil_bo_s0] 33/50 key=11100111110011 status=OK median=346.5ms y=+0.0336 best=-0.0521 EI=4.55e-02 (reused)
+14:17:40 [stencil_bo_s0] 34/50 key=11110011111101 status=OK median=309.9ms y=+0.0060 best=-0.0521 EI=4.13e-02
+14:17:52 [stencil_bo_s0] 35/50 key=10001000010100 status=OK median=330.8ms y=-0.1309 best=-0.1309 EI=4.20e-03
+14:17:56 [stencil_bo_s0] 36/50 key=00011011111111 status=OK median=322.1ms y=+0.2842 best=-0.1309 EI=4.25e-02 (reused)
+14:18:00 [stencil_bo_s0] 37/50 key=10001000110100 status=OK median=330.8ms y=-0.1309 best=-0.1309 EI=6.33e-03 (reused)
+14:18:03 [stencil_bo_s0] 38/50 key=10001000010101 status=OK median=330.8ms y=-0.1309 best=-0.1309 EI=2.51e-03 (reused)
+14:18:06 [stencil_bo_s0] 39/50 key=10111100010101 status=OK median=349.3ms y=-0.0406 best=-0.1309 EI=4.35e-03 (reused)
+14:18:10 [stencil_bo_s0] 40/50 key=11001000001100 status=OK median=327.0ms y=+0.2007 best=-0.1309 EI=4.47e-02 (reused)
+14:18:24 [stencil_bo_s0] 41/50 key=10000000011101 status=OK median=313.0ms y=-0.0512 best=-0.1309 EI=7.51e-03
+14:18:29 [stencil_bo_s0] 42/50 key=10111000110000 status=OK median=279.2ms y=+0.0472 best=-0.1309 EI=4.22e-02 (reused)
+14:18:34 [stencil_bo_s0] 43/50 key=11110011011111 status=OK median=309.9ms y=+0.0060 best=-0.1309 EI=1.32e-02 (reused)
+14:18:40 [stencil_bo_s0] 44/50 key=10001000111100 status=OK median=313.0ms y=-0.0512 best=-0.1309 EI=2.03e-03 (reused)
+14:18:43 [stencil_bo_s0] 45/50 key=10001000010111 status=OK median=248.4ms y=+0.0753 best=-0.1309 EI=1.37e-03 (reused)
+14:18:45 [stencil_bo_s0] 46/50 key=10001011111100 status=OK median=309.9ms y=+0.0060 best=-0.1309 EI=1.11e-03 (reused)
+14:18:48 [stencil_bo_s0] 47/50 key=10001100010101 status=OK median=349.3ms y=-0.0406 best=-0.1309 EI=1.10e-03 (reused)
+14:18:50 [stencil_bo_s0] 48/50 key=11000100011110 status=OK median=313.6ms y=+0.0261 best=-0.1309 EI=4.53e-02 (reused)
+14:18:52 [stencil_bo_s0] 49/50 key=10001000110101 status=OK median=330.8ms y=-0.1309 best=-0.1309 EI=5.94e-04 (reused)
+14:18:59 [stencil_bo_s0] 50/50 key=11011111111101 status=OK median=304.9ms y=-0.0204 best=-0.1309 EI=4.75e-02
+14:19:00 [stencil_bo_s0] best y=-0.1309 (+12.27% vs -O3 during search) flags: -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths
+22:12:50 [stencil_bo_s0] resuming with 50 completed evaluations
+22:12:51 [stencil_bo_s0] best y=-0.1309 (+12.27% vs -O3 during search) flags: -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths

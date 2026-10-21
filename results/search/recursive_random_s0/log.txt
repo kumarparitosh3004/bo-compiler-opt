@@ -1,0 +1,53 @@
+14:25:31 [recursive_random_s0] 1/50 key=11111111111011 status=OK median=153.1ms y=-0.0453 best=-0.0453
+14:25:37 [recursive_random_s0] 2/50 key=01111100011111 status=OK median=221.4ms y=+0.2888 best=-0.0453
+14:25:44 [recursive_random_s0] 3/50 key=00111010000100 status=OK median=243.3ms y=+0.4107 best=-0.0453
+14:25:48 [recursive_random_s0] 4/50 key=10000010000100 status=OK median=251.2ms y=+0.4578 best=-0.0453
+14:25:54 [recursive_random_s0] 5/50 key=01001100110001 status=OK median=196.1ms y=+0.2378 best=-0.0453
+14:25:58 [recursive_random_s0] 6/50 key=01110011101110 status=OK median=193.9ms y=+0.2020 best=-0.0453
+14:26:04 [recursive_random_s0] 7/50 key=01110100010000 status=OK median=155.8ms y=-0.0004 best=-0.0453
+14:26:10 [recursive_random_s0] 8/50 key=01111111001011 status=OK median=177.4ms y=+0.1423 best=-0.0453
+14:26:16 [recursive_random_s0] 9/50 key=00111111110101 status=OK median=242.2ms y=+0.4136 best=-0.0453
+14:26:22 [recursive_random_s0] 10/50 key=11101000111010 status=OK median=154.4ms y=-0.0037 best=-0.0453
+14:26:26 [recursive_random_s0] 11/50 key=01010000100011 status=OK median=228.1ms y=+0.3300 best=-0.0453
+14:26:34 [recursive_random_s0] 12/50 key=00000011011000 status=OK median=233.5ms y=+0.3332 best=-0.0453
+14:26:42 [recursive_random_s0] 13/50 key=11101111110110 status=OK median=172.8ms y=+0.0607 best=-0.0453
+14:26:46 [recursive_random_s0] 14/50 key=01100100111111 status=OK median=185.2ms y=+0.1762 best=-0.0453
+14:26:47 [recursive_random_s0] 15/50 key=10001100111011 status=OK median=196.1ms y=+0.2378 best=-0.0453 (reused)
+14:26:50 [recursive_random_s0] 16/50 key=11100000001011 status=OK median=132.0ms y=-0.1474 best=-0.1474
+14:26:53 [recursive_random_s0] 17/50 key=11100100000111 status=OK median=147.7ms y=-0.0378 best=-0.1474
+14:26:54 [recursive_random_s0] 18/50 key=01000110111111 status=OK median=251.2ms y=+0.4578 best=-0.1474 (reused)
+14:26:58 [recursive_random_s0] 19/50 key=11110000100001 status=OK median=138.1ms y=-0.0817 best=-0.1474
+14:27:01 [recursive_random_s0] 20/50 key=11101100100100 status=OK median=163.3ms y=+0.0834 best=-0.1474
+14:27:05 [recursive_random_s0] 21/50 key=10001111110101 status=OK median=226.9ms y=+0.3952 best=-0.1474
+14:27:08 [recursive_random_s0] 22/50 key=11011000100011 status=OK median=173.8ms y=+0.1491 best=-0.1474
+14:27:12 [recursive_random_s0] 23/50 key=01110110101101 status=OK median=186.2ms y=+0.2061 best=-0.1474
+14:27:15 [recursive_random_s0] 24/50 key=10110100011001 status=OK median=194.9ms y=+0.2585 best=-0.1474
+14:27:16 [recursive_random_s0] 25/50 key=00100111010100 status=OK median=251.2ms y=+0.4578 best=-0.1474 (reused)
+14:27:20 [recursive_random_s0] 26/50 key=10101100100001 status=OK median=191.8ms y=+0.2349 best=-0.1474
+14:27:21 [recursive_random_s0] 27/50 key=01000010110111 status=OK median=251.2ms y=+0.4578 best=-0.1474 (reused)
+14:27:25 [recursive_random_s0] 28/50 key=01010010010111 status=OK median=239.7ms y=+0.4599 best=-0.1474
+14:27:28 [recursive_random_s0] 29/50 key=01101110001010 status=OK median=174.2ms y=+0.1413 best=-0.1474
+14:27:29 [recursive_random_s0] 30/50 key=10010010001111 status=OK median=239.7ms y=+0.4599 best=-0.1474 (reused)
+14:27:30 [recursive_random_s0] 31/50 key=10011011001111 status=OK median=243.3ms y=+0.4107 best=-0.1474 (reused)
+14:27:31 [recursive_random_s0] 32/50 key=01011011000100 status=OK median=243.3ms y=+0.4107 best=-0.1474 (reused)
+14:27:32 [recursive_random_s0] 33/50 key=01100000001111 status=OK median=185.2ms y=+0.1762 best=-0.1474 (reused)
+14:27:36 [recursive_random_s0] 34/50 key=10001000000001 status=OK median=188.2ms y=+0.2331 best=-0.1474
+14:27:37 [recursive_random_s0] 35/50 key=00010000011010 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:27:38 [recursive_random_s0] 36/50 key=01100000101100 status=OK median=185.2ms y=+0.1762 best=-0.1474 (reused)
+14:27:39 [recursive_random_s0] 37/50 key=10010110000011 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:27:40 [recursive_random_s0] 38/50 key=01011100110100 status=OK median=242.2ms y=+0.4136 best=-0.1474 (reused)
+14:27:41 [recursive_random_s0] 39/50 key=00110010001000 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:27:42 [recursive_random_s0] 40/50 key=00010100000010 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:27:46 [recursive_random_s0] 41/50 key=01100010100101 status=OK median=184.7ms y=+0.2101 best=-0.1474
+14:27:47 [recursive_random_s0] 42/50 key=11010110100001 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:27:50 [recursive_random_s0] 43/50 key=00011100000010 status=OK median=177.6ms y=+0.1566 best=-0.1474
+14:27:54 [recursive_random_s0] 44/50 key=01110111010100 status=OK median=186.7ms y=+0.2227 best=-0.1474
+14:27:57 [recursive_random_s0] 45/50 key=01100111000010 status=OK median=156.3ms y=+0.0402 best=-0.1474
+14:27:58 [recursive_random_s0] 46/50 key=11010100110010 status=OK median=228.1ms y=+0.3300 best=-0.1474 (reused)
+14:28:02 [recursive_random_s0] 47/50 key=10101000001001 status=OK median=189.9ms y=+0.2278 best=-0.1474
+14:28:05 [recursive_random_s0] 48/50 key=01111100001010 status=OK median=169.4ms y=+0.1234 best=-0.1474
+14:28:08 [recursive_random_s0] 49/50 key=10111110010111 status=OK median=206.5ms y=+0.3259 best=-0.1474
+14:28:10 [recursive_random_s0] 50/50 key=11011110100011 status=OK median=177.6ms y=+0.1566 best=-0.1474 (reused)
+14:28:10 [recursive_random_s0] best y=-0.1474 (+13.71% vs -O3 during search) flags: -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize
+22:12:55 [recursive_random_s0] resuming with 50 completed evaluations
+22:12:55 [recursive_random_s0] best y=-0.1474 (+13.71% vs -O3 during search) flags: -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize

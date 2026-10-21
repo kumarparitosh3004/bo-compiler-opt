@@ -1,0 +1,37 @@
+# Hand-written list of candidate GCC optimization flags.
+# scripts/verify_flags.py checks each one against the installed compiler,
+# fills in its real -O2/-O3 defaults from `gcc -Q --help=optimizers`, runs the
+# sensitivity screen and writes the result to config/flags_gcc.yaml.
+#
+# Bit 1 -> on, 0 -> off. A flag is emitted (-f<name> / -fno-<name>) only when it
+# differs from the base level's default, because spelling some flags out has side
+# effects even at their default value (verify_flags.py reports them).
+# `requires`: the flag has no effect unless every listed flag is also on;
+# the search space forces it to 0 otherwise (canonicalization).
+compiler_family: gcc
+base_levels: ["-O2", "-O3"]
+max_active_flags: 16
+candidates:
+  - {name: inline-functions,         what: "Inline functions not marked inline when profitable"}
+  - {name: inline-small-functions,   what: "Inline small functions"}
+  - {name: ipa-cp-clone,             what: "Clone functions to specialize constant arguments"}
+  - {name: optimize-sibling-calls,   what: "Turn sibling and tail calls into jumps"}
+  - {name: gcse,                     what: "Global common-subexpression elimination"}
+  - {name: tree-pre,                 what: "Partial redundancy elimination on GIMPLE"}
+  - {name: tree-partial-pre,         what: "More aggressive PRE", requires: [tree-pre]}
+  - {name: gcse-after-reload,        what: "Redundant-load elimination after register allocation"}
+  - {name: tree-loop-vectorize,      what: "Loop vectorization"}
+  - {name: tree-slp-vectorize,       what: "Straight-line (SLP) vectorization"}
+  - {name: unroll-loops,             what: "Unroll loops with computable trip counts"}
+  - {name: unroll-all-loops,         what: "Unroll all loops, even with unknown trip counts"}
+  - {name: peel-loops,               what: "Peel loops with few iterations"}
+  - {name: unswitch-loops,           what: "Move loop-invariant conditionals out of loops"}
+  - {name: predictive-commoning,     what: "Reuse values computed in earlier loop iterations"}
+  - {name: split-loops,              what: "Split a loop at a condition that changes once"}
+  - {name: loop-interchange,         what: "Swap nested loops for better locality"}
+  - {name: loop-unroll-and-jam,      what: "Unroll outer loop and fuse inner copies"}
+  - {name: tree-loop-distribution,   what: "Split loops into several simpler loops"}
+  - {name: version-loops-for-strides, what: "Version loops for unit stride"}
+  - {name: split-paths,              what: "Split paths leading to loop back-edges"}
+# Never part of the search: they change floating-point semantics or the target.
+forbidden: ["-ffast-math", "-Ofast", "-funsafe-math-optimizations", "-ffinite-math-only", "-march=native"]

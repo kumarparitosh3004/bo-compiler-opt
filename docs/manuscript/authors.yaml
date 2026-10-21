@@ -1,0 +1,13 @@
+# Author details for the manuscript (Team 12, Compiler Lab).
+# Edit here, then rebuild the Word file:
+#     .venv\Scripts\python scripts\make_manuscript.py
+# Names appear on the paper in the order listed.
+members:
+  - "Aditya Agarwal"                             # 24BCE0587 - Member 1: compiler and correctness
+  - "Priyanshu Krishna Srivastava"               # 24BCE2464 - Member 2: benchmarks and measurement
+  - "Kumar Paritosh"                             # 24BCE2863 - Member 3: Bayesian Optimization
+  - "Maddulapalli Venkata Satya Abhinav Sarma"   # 24BAI0125 - Member 4: integration, experiments, website
+course: "Compiler Lab"
+department: "School of Computer Science and Engineering (SCOPE)"
+university: "Vellore Institute of Technology, Vellore, India"
+email: ""   # optional contact email; leave empty to omit

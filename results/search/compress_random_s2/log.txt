@@ -1,0 +1,51 @@
+03:38:23 [compress_random_s2] 1/50 key=11111111111011 status=OK median=435.6ms y=-0.0165 best=-0.0165
+03:38:42 [compress_random_s2] 2/50 key=10010010001001 status=OK median=756.5ms y=+0.0006 best=-0.0165
+03:38:55 [compress_random_s2] 3/50 key=00011000011010 status=OK median=786.5ms y=+0.0149 best=-0.0165
+03:39:07 [compress_random_s2] 4/50 key=11101110001100 status=OK median=751.9ms y=+0.0050 best=-0.0165
+03:39:19 [compress_random_s2] 5/50 key=01011100011000 status=OK median=745.0ms y=-0.0048 best=-0.0165
+03:39:42 [compress_random_s2] 6/50 key=11011000011100 status=OK median=815.3ms y=+0.0350 best=-0.0165
+03:39:55 [compress_random_s2] 7/50 key=00111011011100 status=OK median=781.8ms y=+0.0083 best=-0.0165
+03:40:10 [compress_random_s2] 8/50 key=01111110000000 status=OK median=778.4ms y=+0.0134 best=-0.0165
+03:40:24 [compress_random_s2] 9/50 key=01101100100000 status=OK median=742.0ms y=-0.0090 best=-0.0165
+03:40:36 [compress_random_s2] 10/50 key=00100110111010 status=OK median=751.8ms y=-0.0009 best=-0.0165
+03:40:58 [compress_random_s2] 11/50 key=11011010010000 status=OK median=743.8ms y=-0.0042 best=-0.0165
+03:41:10 [compress_random_s2] 12/50 key=01101110000100 status=OK median=744.2ms y=-0.0236 best=-0.0236
+03:41:22 [compress_random_s2] 13/50 key=11110000000011 status=OK median=749.1ms y=+0.0002 best=-0.0236
+03:41:33 [compress_random_s2] 14/50 key=11001100001010 status=OK median=742.1ms y=-0.0039 best=-0.0236
+03:41:45 [compress_random_s2] 15/50 key=11010000001000 status=OK median=751.6ms y=-0.0023 best=-0.0236
+03:42:01 [compress_random_s2] 16/50 key=00001100010110 status=OK median=420.3ms y=-0.0391 best=-0.0391
+03:42:15 [compress_random_s2] 17/50 key=11111000010100 status=OK median=488.5ms y=+0.0173 best=-0.0391
+03:42:28 [compress_random_s2] 18/50 key=11101111101000 status=OK median=424.8ms y=-0.0091 best=-0.0391
+03:42:41 [compress_random_s2] 19/50 key=11111100000101 status=OK median=425.8ms y=-0.0295 best=-0.0391
+03:42:48 [compress_random_s2] 20/50 key=00101110100111 status=OK median=411.8ms y=-0.0180 best=-0.0391
+03:42:55 [compress_random_s2] 21/50 key=00111100001100 status=OK median=424.3ms y=+0.0054 best=-0.0391
+03:42:56 [compress_random_s2] 22/50 key=11110100100111 status=OK median=425.8ms y=-0.0295 best=-0.0391 (reused)
+03:43:09 [compress_random_s2] 23/50 key=00000000111101 status=OK median=427.5ms y=-0.0118 best=-0.0391
+03:43:16 [compress_random_s2] 24/50 key=00011100110011 status=OK median=425.0ms y=-0.0164 best=-0.0391
+03:43:29 [compress_random_s2] 25/50 key=01111011111000 status=OK median=424.5ms y=-0.0462 best=-0.0462
+03:43:42 [compress_random_s2] 26/50 key=00101010111001 status=OK median=424.9ms y=-0.0211 best=-0.0462
+03:43:43 [compress_random_s2] 27/50 key=00000100000000 status=OK median=742.0ms y=-0.0090 best=-0.0462 (reused)
+03:43:51 [compress_random_s2] 28/50 key=00001010000011 status=OK median=427.7ms y=-0.0046 best=-0.0462
+03:44:04 [compress_random_s2] 29/50 key=01010000101101 status=OK median=428.6ms y=-0.0003 best=-0.0462
+03:44:11 [compress_random_s2] 30/50 key=00001100010101 status=OK median=408.1ms y=-0.0075 best=-0.0462
+03:44:12 [compress_random_s2] 31/50 key=11101000111110 status=OK median=815.3ms y=+0.0350 best=-0.0462 (reused)
+03:44:19 [compress_random_s2] 32/50 key=01101010111100 status=OK median=408.4ms y=-0.0151 best=-0.0462
+03:44:20 [compress_random_s2] 33/50 key=11001010010000 status=OK median=743.8ms y=-0.0042 best=-0.0462 (reused)
+03:44:21 [compress_random_s2] 34/50 key=01011111000110 status=OK median=744.2ms y=-0.0236 best=-0.0462 (reused)
+03:44:28 [compress_random_s2] 35/50 key=10000011001101 status=OK median=405.3ms y=-0.0279 best=-0.0462
+03:44:41 [compress_random_s2] 36/50 key=10111111111000 status=OK median=434.9ms y=+0.0074 best=-0.0462
+03:44:48 [compress_random_s2] 37/50 key=01110011111001 status=OK median=409.2ms y=+0.0038 best=-0.0462
+03:44:49 [compress_random_s2] 38/50 key=10000011000011 status=OK median=427.7ms y=-0.0046 best=-0.0462 (reused)
+03:44:50 [compress_random_s2] 39/50 key=10110000101111 status=OK median=428.6ms y=-0.0003 best=-0.0462 (reused)
+03:44:57 [compress_random_s2] 40/50 key=10101111111111 status=OK median=402.4ms y=-0.0132 best=-0.0462
+03:45:03 [compress_random_s2] 41/50 key=01101111011001 status=OK median=410.9ms y=+0.0032 best=-0.0462
+03:45:10 [compress_random_s2] 42/50 key=01000100111001 status=OK median=424.8ms y=+0.0413 best=-0.0462
+03:45:22 [compress_random_s2] 43/50 key=01111000110010 status=OK median=415.0ms y=+0.0048 best=-0.0462
+03:45:29 [compress_random_s2] 44/50 key=11010110110000 status=OK median=413.8ms y=-0.0104 best=-0.0462
+03:45:36 [compress_random_s2] 45/50 key=00001100101101 status=OK median=402.9ms y=+0.0040 best=-0.0462
+03:45:42 [compress_random_s2] 46/50 key=01101000001100 status=OK median=410.1ms y=+0.0092 best=-0.0462
+03:45:49 [compress_random_s2] 47/50 key=01011100011101 status=OK median=405.6ms y=-0.0044 best=-0.0462
+03:45:56 [compress_random_s2] 48/50 key=00011000110101 status=OK median=402.7ms y=-0.0080 best=-0.0462
+03:45:57 [compress_random_s2] 49/50 key=01011100001101 status=OK median=402.9ms y=+0.0040 best=-0.0462 (reused)
+03:46:04 [compress_random_s2] 50/50 key=11011000011011 status=OK median=417.9ms y=+0.0213 best=-0.0462
+03:46:04 [compress_random_s2] best y=-0.0462 (+4.51% vs -O3 during search) flags: base -O2 -gcse -unswitch-loops -split-paths

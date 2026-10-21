@@ -1,0 +1,51 @@
+22:27:30 [wordfreq_bo_s0] 1/50 key=11111111111011 status=OK median=267.6ms y=-0.0043 best=-0.0043
+22:27:34 [wordfreq_bo_s0] 2/50 key=01111100011111 status=OK median=267.0ms y=+0.0448 best=-0.0043
+22:27:38 [wordfreq_bo_s0] 3/50 key=00111010000100 status=OK median=283.1ms y=+0.1262 best=-0.0043
+22:27:43 [wordfreq_bo_s0] 4/50 key=10000010000100 status=OK median=276.6ms y=+0.0847 best=-0.0043
+22:27:47 [wordfreq_bo_s0] 5/50 key=01001100110001 status=OK median=250.8ms y=-0.0015 best=-0.0043
+22:27:52 [wordfreq_bo_s0] 6/50 key=01110011101110 status=OK median=280.2ms y=+0.1129 best=-0.0043
+22:27:56 [wordfreq_bo_s0] 7/50 key=01110100010000 status=OK median=250.6ms y=-0.0031 best=-0.0043
+22:28:00 [wordfreq_bo_s0] 8/50 key=01111111001011 status=OK median=267.3ms y=+0.0539 best=-0.0043
+22:28:05 [wordfreq_bo_s0] 9/50 key=11110011011000 status=OK median=250.3ms y=+0.0132 best=-0.0043 EI=1.44e-03
+22:28:09 [wordfreq_bo_s0] 10/50 key=10110100011010 status=OK median=245.5ms y=-0.0158 best=-0.0158 EI=9.75e-04
+22:28:10 [wordfreq_bo_s0] 11/50 key=10100100011010 status=OK median=245.5ms y=-0.0158 best=-0.0158 EI=6.08e-04 (reused)
+22:28:15 [wordfreq_bo_s0] 12/50 key=11000011110101 status=OK median=268.8ms y=+0.0768 best=-0.0158 EI=1.17e-04
+22:28:19 [wordfreq_bo_s0] 13/50 key=10000000100000 status=OK median=268.0ms y=+0.0714 best=-0.0158 EI=5.94e-05
+22:28:24 [wordfreq_bo_s0] 14/50 key=00100000010010 status=OK median=253.8ms y=+0.0066 best=-0.0158 EI=4.18e-05
+22:28:28 [wordfreq_bo_s0] 15/50 key=10001111111011 status=OK median=249.1ms y=-0.0273 best=-0.0273 EI=4.32e-05
+22:28:32 [wordfreq_bo_s0] 16/50 key=10001011111011 status=OK median=253.1ms y=+0.0053 best=-0.0273 EI=2.22e-05
+22:28:37 [wordfreq_bo_s0] 17/50 key=10011111111111 status=OK median=264.9ms y=+0.0627 best=-0.0273 EI=2.96e-08
+22:28:42 [wordfreq_bo_s0] 18/50 key=00010111010010 status=OK median=250.5ms y=+0.0024 best=-0.0273 EI=5.05e-07
+22:28:46 [wordfreq_bo_s0] 19/50 key=10001100010000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=1.16e-04
+22:28:51 [wordfreq_bo_s0] 20/50 key=10001111111001 status=OK median=249.9ms y=-0.0083 best=-0.0273 EI=5.33e-07
+22:28:55 [wordfreq_bo_s0] 21/50 key=10001100110011 status=OK median=249.1ms y=-0.0057 best=-0.0273 EI=1.11e-06
+22:28:57 [wordfreq_bo_s0] 22/50 key=10000100011010 status=OK median=249.1ms y=-0.0057 best=-0.0273 EI=6.72e-07 (reused)
+22:28:58 [wordfreq_bo_s0] 23/50 key=10101111110011 status=OK median=267.6ms y=-0.0043 best=-0.0273 EI=3.68e-07 (reused)
+22:28:59 [wordfreq_bo_s0] 24/50 key=10000100011000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=2.12e-07 (reused)
+22:29:00 [wordfreq_bo_s0] 25/50 key=11000100011000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=1.31e-07 (reused)
+22:29:01 [wordfreq_bo_s0] 26/50 key=10001100111011 status=OK median=249.1ms y=-0.0057 best=-0.0273 EI=6.48e-08 (reused)
+22:29:06 [wordfreq_bo_s0] 27/50 key=10101100001100 status=OK median=274.0ms y=+0.0899 best=-0.0273 EI=2.33e-04
+22:29:07 [wordfreq_bo_s0] 28/50 key=01101000010011 status=OK median=253.8ms y=+0.0066 best=-0.0273 EI=9.28e-04 (reused)
+22:29:12 [wordfreq_bo_s0] 29/50 key=11101000010011 status=OK median=258.4ms y=+0.0211 best=-0.0273 EI=2.22e-03
+22:29:17 [wordfreq_bo_s0] 30/50 key=00011000110111 status=OK median=266.9ms y=+0.0647 best=-0.0273 EI=1.25e-03
+22:29:22 [wordfreq_bo_s0] 31/50 key=11010111000000 status=OK median=268.1ms y=+0.0627 best=-0.0273 EI=9.79e-04
+22:29:26 [wordfreq_bo_s0] 32/50 key=11111110000010 status=OK median=264.8ms y=+0.0693 best=-0.0273 EI=1.30e-03
+22:29:31 [wordfreq_bo_s0] 33/50 key=11010000010000 status=OK median=248.2ms y=-0.0197 best=-0.0273 EI=1.01e-03
+22:29:32 [wordfreq_bo_s0] 34/50 key=11010100010000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=4.83e-06 (reused)
+22:29:37 [wordfreq_bo_s0] 35/50 key=00010100010110 status=OK median=262.8ms y=+0.0432 best=-0.0273 EI=6.54e-05
+22:29:39 [wordfreq_bo_s0] 36/50 key=11010100111000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=3.05e-06 (reused)
+22:29:44 [wordfreq_bo_s0] 37/50 key=01111000111100 status=OK median=270.5ms y=+0.0775 best=-0.0273 EI=1.36e-03
+22:29:45 [wordfreq_bo_s0] 38/50 key=01011000000000 status=OK median=268.0ms y=+0.0714 best=-0.0273 EI=1.87e-03 (reused)
+22:29:50 [wordfreq_bo_s0] 39/50 key=01010000111001 status=OK median=251.9ms y=+0.0266 best=-0.0273 EI=6.00e-04
+22:29:51 [wordfreq_bo_s0] 40/50 key=01000111010011 status=OK median=250.5ms y=+0.0024 best=-0.0273 EI=1.04e-03 (reused)
+22:29:56 [wordfreq_bo_s0] 41/50 key=00001111111011 status=OK median=248.3ms y=+0.0049 best=-0.0273 EI=1.03e-03
+22:29:58 [wordfreq_bo_s0] 42/50 key=00101100001111 status=OK median=274.0ms y=+0.0899 best=-0.0273 EI=2.75e-04 (reused)
+22:30:02 [wordfreq_bo_s0] 43/50 key=11010010111000 status=OK median=251.2ms y=+0.0161 best=-0.0273 EI=9.31e-04
+22:30:04 [wordfreq_bo_s0] 44/50 key=10000100010000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=6.38e-06 (reused)
+22:30:06 [wordfreq_bo_s0] 45/50 key=10011100010000 status=OK median=245.2ms y=-0.0124 best=-0.0273 EI=5.35e-06 (reused)
+22:30:10 [wordfreq_bo_s0] 46/50 key=01110000111010 status=OK median=253.8ms y=+0.0243 best=-0.0273 EI=1.25e-03
+22:30:12 [wordfreq_bo_s0] 47/50 key=10010111011011 status=OK median=249.1ms y=-0.0273 best=-0.0273 EI=1.17e-04 (reused)
+22:30:17 [wordfreq_bo_s0] 48/50 key=10101100011001 status=OK median=252.2ms y=-0.0141 best=-0.0273 EI=2.33e-05
+22:30:18 [wordfreq_bo_s0] 49/50 key=10010011011011 status=OK median=253.1ms y=+0.0053 best=-0.0273 EI=2.02e-05 (reused)
+22:30:23 [wordfreq_bo_s0] 50/50 key=00100110011011 status=OK median=248.6ms y=-0.0216 best=-0.0273 EI=1.08e-05
+22:30:24 [wordfreq_bo_s0] best y=-0.0273 (+2.69% vs -O3 during search) flags: -inline-functions -inline-small-functions -ipa-cp-clone

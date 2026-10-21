@@ -1,0 +1,10 @@
+benchmark,bo speed-up vs -O3 on larger input,random speed-up vs -O3 on larger input
+matmul,1.0081,1.0079
+sort,1.0152,1.0175
+search,0.9969,1.0038
+stencil,1.0285,1.0239
+recursive,1.2913,1.2581
+arith,0.9873,0.9963
+compress,1.002,0.9983
+sha256,1.0874,1.0711
+wordfreq,1.0028,1.0043

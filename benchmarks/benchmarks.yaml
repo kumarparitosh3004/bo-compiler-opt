@@ -1,0 +1,73 @@
+# Benchmark manifest.
+#   args      - problem size used for search and final comparison
+#               (tuned so -O3 takes roughly 0.3-0.5 s on the measurement machine)
+#   args_alt  - a ~2x larger input for the Phase 4 generalization check (Step D)
+#   checksum  - "int" must match exactly, "float" within rel_tol
+- name: matmul
+  source: benchmarks/matmul/matmul.c
+  args: ["700"]
+  args_alt: ["880"]
+  checksum: float
+  rel_tol: 1.0e-9
+  link_flags: []
+
+- name: sort
+  source: benchmarks/sort/sort.c
+  args: ["1000000", "3"]
+  args_alt: ["2000000", "3"]
+  checksum: int
+  link_flags: []
+
+- name: search
+  source: benchmarks/search/search.c
+  args: ["4000000", "1500000"]
+  args_alt: ["8000000", "3000000"]
+  checksum: int
+  link_flags: []
+
+- name: stencil
+  source: benchmarks/stencil/stencil.c
+  args: ["1024", "400"]
+  args_alt: ["1448", "400"]
+  checksum: float
+  rel_tol: 1.0e-9
+  link_flags: []
+
+- name: recursive
+  source: benchmarks/recursive/recursive.c
+  args: ["12", "35"]
+  args_alt: ["12", "36"]
+  checksum: int
+  link_flags: []
+
+- name: arith
+  source: benchmarks/arith/arith.c
+  args: ["800", "600", "1024"]
+  args_alt: ["1131", "849", "1024"]
+  checksum: int
+  link_flags: []
+
+# ---- real-world workloads on real data (benchmarks/data/corpus.txt, see CORPUS.md) ----
+- name: compress
+  source: benchmarks/compress/compress.c
+  args: ["@benchmarks/data/corpus.txt", "4"]
+  args_alt: ["@benchmarks/data/corpus.txt", "8"]
+  checksum: int
+  link_flags: []
+  real_data: true
+
+- name: sha256
+  source: benchmarks/sha256/sha256.c
+  args: ["@benchmarks/data/corpus.txt", "15"]
+  args_alt: ["@benchmarks/data/corpus.txt", "30"]
+  checksum: int
+  link_flags: []
+  real_data: true
+
+- name: wordfreq
+  source: benchmarks/wordfreq/wordfreq.c
+  args: ["@benchmarks/data/corpus.txt", "10"]
+  args_alt: ["@benchmarks/data/corpus.txt", "20"]
+  checksum: int
+  link_flags: []
+  real_data: true

@@ -1,0 +1,17 @@
+{
+  "evaluations": 50,
+  "unique_binaries": 28,
+  "measured_runs": 28,
+  "status_counts": {
+    "OK": 50
+  },
+  "total_compile_time_s": 39.52,
+  "search_wall_time_s": 134.78,
+  "t_ref_O3_ns": null,
+  "best_eval_id": 39,
+  "best_key": "00010100000010",
+  "best_flags": "-O2 -fno-inline-functions -fno-inline-small-functions -fipa-cp-clone -fno-optimize-sibling-calls -fno-tree-pre -fno-tree-loop-vectorize -fno-tree-slp-vectorize -funswitch-loops",
+  "best_y": -0.02067,
+  "best_pct_faster_than_O3": 2.046,
+  "best_diff_vs_O3": "base -O2 -inline-functions -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -split-paths"
+}

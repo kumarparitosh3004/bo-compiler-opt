@@ -1,0 +1,32 @@
+{
+  "reps": 15,
+  "shuffle_seed": 12345,
+  "alt_input": true,
+  "benchmarks": [
+    "search",
+    "wordfreq"
+  ],
+  "env": {
+    "timestamp": "2026-10-18T05:23:54",
+    "git_commit": null,
+    "compiler": "C:/mingw64/bin/gcc.exe",
+    "compiler_version": "gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "cpu_count": 16,
+    "python": "3.12.5",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "PyYAML": "6.0.3",
+      "pytest": "9.1.1"
+    },
+    "file_hashes": {
+      "config\\flags_gcc.yaml": "eb8ff50b0fc89f64"
+    }
+  }
+}

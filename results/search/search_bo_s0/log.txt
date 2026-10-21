@@ -1,0 +1,53 @@
+13:48:39 [search_bo_s0] 1/50 key=11111111111011 status=OK median=343.8ms y=+0.0003 best=+0.0003
+13:48:52 [search_bo_s0] 2/50 key=01111100011111 status=OK median=340.1ms y=-0.0006 best=-0.0006
+13:49:04 [search_bo_s0] 3/50 key=00111010000100 status=OK median=340.4ms y=-0.0161 best=-0.0161
+13:49:05 [search_bo_s0] 4/50 key=10000010000100 status=OK median=340.4ms y=-0.0161 best=-0.0161 (reused)
+13:49:18 [search_bo_s0] 5/50 key=01001100110001 status=OK median=345.9ms y=-0.0006 best=-0.0161
+13:49:30 [search_bo_s0] 6/50 key=01110011101110 status=OK median=345.8ms y=-0.0038 best=-0.0161
+13:49:43 [search_bo_s0] 7/50 key=01110100010000 status=OK median=338.1ms y=-0.0064 best=-0.0161
+13:49:44 [search_bo_s0] 8/50 key=01111111001011 status=OK median=343.8ms y=+0.0003 best=-0.0161 (reused)
+13:49:57 [search_bo_s0] 9/50 key=10001010011001 status=OK median=344.6ms y=+0.0022 best=-0.0161 EI=4.60e-08
+13:50:09 [search_bo_s0] 10/50 key=00001100111010 status=OK median=341.8ms y=-0.0025 best=-0.0161 EI=5.85e-09
+13:50:22 [search_bo_s0] 11/50 key=10100011110101 status=OK median=340.5ms y=-0.0056 best=-0.0161 EI=7.30e-11
+13:50:35 [search_bo_s0] 12/50 key=10111010111000 status=OK median=341.9ms y=+0.0014 best=-0.0161 EI=4.88e-09
+13:50:48 [search_bo_s0] 13/50 key=01010100010110 status=OK median=341.5ms y=+0.0100 best=-0.0161 EI=3.32e-08
+13:51:01 [search_bo_s0] 14/50 key=10111100011110 status=OK median=343.1ms y=+0.0090 best=-0.0161 EI=3.99e-07
+13:51:02 [search_bo_s0] 15/50 key=00001010110101 status=OK median=340.5ms y=-0.0056 best=-0.0161 EI=4.97e-07 (reused)
+13:51:03 [search_bo_s0] 16/50 key=10100011100101 status=OK median=340.5ms y=-0.0056 best=-0.0161 EI=6.92e-07 (reused)
+13:51:16 [search_bo_s0] 17/50 key=11100000111100 status=OK median=341.5ms y=+0.0045 best=-0.0161 EI=8.83e-09
+13:51:29 [search_bo_s0] 18/50 key=00101110001101 status=OK median=341.5ms y=-0.0048 best=-0.0161 EI=2.58e-08
+13:51:41 [search_bo_s0] 19/50 key=01001111110110 status=OK median=344.0ms y=-0.0017 best=-0.0161 EI=5.80e-08
+13:51:54 [search_bo_s0] 20/50 key=00100000000100 status=OK median=342.8ms y=-0.0019 best=-0.0161 EI=3.87e-08
+13:51:55 [search_bo_s0] 21/50 key=11101010000100 status=OK median=340.4ms y=-0.0161 best=-0.0161 EI=2.20e-07 (reused)
+13:52:08 [search_bo_s0] 22/50 key=01011111111100 status=OK median=343.3ms y=+0.0044 best=-0.0161 EI=3.31e-08
+13:52:21 [search_bo_s0] 23/50 key=11100100000001 status=OK median=349.8ms y=+0.0117 best=-0.0161 EI=1.99e-09
+13:52:22 [search_bo_s0] 24/50 key=11101010000110 status=OK median=340.4ms y=-0.0161 best=-0.0161 EI=1.52e-07 (reused)
+13:52:23 [search_bo_s0] 25/50 key=01010010011110 status=OK median=345.8ms y=-0.0038 best=-0.0161 EI=2.97e-07 (reused)
+13:52:36 [search_bo_s0] 26/50 key=10001000100101 status=OK median=344.8ms y=+0.0014 best=-0.0161 EI=1.47e-08
+13:52:37 [search_bo_s0] 27/50 key=10001010100110 status=OK median=340.4ms y=-0.0161 best=-0.0161 EI=5.68e-08 (reused)
+13:52:50 [search_bo_s0] 28/50 key=10000110110001 status=OK median=340.1ms y=-0.0008 best=-0.0161 EI=1.03e-07
+13:52:51 [search_bo_s0] 29/50 key=01010110100110 status=OK median=344.0ms y=-0.0017 best=-0.0161 EI=3.22e-08 (reused)
+13:53:04 [search_bo_s0] 30/50 key=00011000010010 status=OK median=339.8ms y=-0.0032 best=-0.0161 EI=1.47e-08
+13:53:05 [search_bo_s0] 31/50 key=10100011110100 status=OK median=340.4ms y=-0.0161 best=-0.0161 EI=7.15e-09 (reused)
+13:53:18 [search_bo_s0] 32/50 key=01010111000000 status=OK median=343.5ms y=+0.0031 best=-0.0161 EI=5.71e-08
+13:53:19 [search_bo_s0] 33/50 key=10100010101110 status=OK median=345.8ms y=-0.0038 best=-0.0161 EI=2.02e-06 (reused)
+13:53:32 [search_bo_s0] 34/50 key=01111011110010 status=OK median=344.7ms y=+0.0070 best=-0.0161 EI=1.88e-06
+13:53:33 [search_bo_s0] 35/50 key=10000011010010 status=OK median=344.7ms y=+0.0070 best=-0.0161 EI=1.51e-07 (reused)
+13:53:46 [search_bo_s0] 36/50 key=11001000011001 status=OK median=343.4ms y=+0.0010 best=-0.0161 EI=4.38e-08
+13:53:59 [search_bo_s0] 37/50 key=01110111110111 status=OK median=346.0ms y=+0.0064 best=-0.0161 EI=3.39e-09
+13:54:13 [search_bo_s0] 38/50 key=11001010001111 status=OK median=342.5ms y=-0.0159 best=-0.0161 EI=1.99e-09
+13:54:14 [search_bo_s0] 39/50 key=00100011111101 status=OK median=342.5ms y=-0.0159 best=-0.0161 EI=1.81e-07 (reused)
+13:54:27 [search_bo_s0] 40/50 key=11100000001000 status=OK median=343.9ms y=-0.0023 best=-0.0161 EI=8.15e-08
+13:54:40 [search_bo_s0] 41/50 key=11000000100001 status=OK median=345.9ms y=+0.0054 best=-0.0161 EI=2.42e-07
+13:54:53 [search_bo_s0] 42/50 key=11110011100011 status=OK median=345.0ms y=+0.0085 best=-0.0161 EI=6.15e-10
+13:55:06 [search_bo_s0] 43/50 key=11000000011101 status=OK median=345.2ms y=+0.0032 best=-0.0161 EI=8.41e-09
+13:55:19 [search_bo_s0] 44/50 key=11000100100101 status=OK median=339.0ms y=-0.0133 best=-0.0161 EI=1.40e-10
+13:55:21 [search_bo_s0] 45/50 key=00011100010111 status=OK median=339.0ms y=-0.0133 best=-0.0161 EI=6.74e-09 (reused)
+13:55:34 [search_bo_s0] 46/50 key=10110100111011 status=OK median=347.9ms y=+0.0004 best=-0.0161 EI=2.10e-07
+13:55:48 [search_bo_s0] 47/50 key=01101110111010 status=OK median=354.0ms y=-0.0048 best=-0.0161 EI=1.58e-09
+13:55:50 [search_bo_s0] 48/50 key=10001100100010 status=OK median=338.1ms y=-0.0064 best=-0.0161 EI=6.96e-11 (reused)
+13:55:52 [search_bo_s0] 49/50 key=11110110101010 status=OK median=354.0ms y=-0.0048 best=-0.0161 EI=1.75e-13 (reused)
+13:55:53 [search_bo_s0] 50/50 key=10111010000111 status=OK median=340.5ms y=-0.0056 best=-0.0161 EI=1.66e-11 (reused)
+13:55:53 [search_bo_s0] best y=-0.0161 (+1.59% vs -O3 during search) flags: base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths
+22:12:48 [search_bo_s0] resuming with 50 completed evaluations
+22:12:48 [search_bo_s0] best y=-0.0161 (+1.59% vs -O3 during search) flags: base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths

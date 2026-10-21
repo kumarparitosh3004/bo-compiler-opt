@@ -1,0 +1,17 @@
+{
+  "evaluations": 50,
+  "unique_binaries": 28,
+  "measured_runs": 28,
+  "status_counts": {
+    "OK": 50
+  },
+  "total_compile_time_s": 42.93,
+  "search_wall_time_s": 108.0,
+  "t_ref_O3_ns": 247739400.0,
+  "best_eval_id": 9,
+  "best_key": "11101000111010",
+  "best_flags": "-O3 -fno-ipa-cp-clone -fno-gcse -fno-tree-pre -fno-tree-partial-pre -fno-split-paths",
+  "best_y": -0.023754,
+  "best_pct_faster_than_O3": 2.347,
+  "best_diff_vs_O3": "-ipa-cp-clone -gcse -tree-pre -tree-partial-pre -split-paths"
+}

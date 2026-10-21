@@ -1,0 +1,38 @@
+# Frozen experiment settings (Phase 3 -> Phase 4 gate).
+# The compiler can be overridden per machine with the BOPASS_CC environment
+# variable, e.g. BOPASS_CC=C:/mingw64/bin/gcc.exe
+compiler: gcc
+# Same for every build besides the search flags. On Windows/MinGW the PE
+# timestamp makes identical builds hash differently, so it is disabled.
+fixed_flags:
+  windows: ["-Wl,--no-insert-timestamp"]
+  posix: []
+
+flags_file: config/flags_gcc.yaml
+benchmarks: [matmul, sort, search, stencil, recursive, arith, compress, sha256, wordfreq]
+methods: [bo, random]
+seeds: [0, 1, 2]
+
+budget: 50                 # evaluations per run, initial design included
+n_init: 8                  # x_O3 + 7 random valid configurations
+warmup: 1
+search_reps: 5
+baseline_reps: 15
+final_reps: 15
+noise_floor_reps: 30
+cv_threshold: 0.05         # re-run once if coefficient of variation exceeds this
+# Paired measurement: each configuration's runs alternate (A-B, B-A) with an -O3
+# build, and y = ln(median per-round time ratio). Machine speed drifted by ~35%
+# within minutes on the measurement laptop, which a single reference cannot absorb.
+paired_reference: true
+
+bo:
+  xi: 0.01
+  pool_size: 2000
+  top_k_neighbours: 5
+  gp_restarts: 5
+failure_penalty: 1.0       # failures get y = worst OK y + this
+
+compile_timeout_s: 60
+run_timeout_min_s: 5       # run timeout = max(10 x -O0 time, this)
+wallclock_cap_h: 2

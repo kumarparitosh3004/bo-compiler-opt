@@ -1,0 +1,51 @@
+23:06:05 [matmul_bo_s2] 1/50 key=11111111111011 status=OK median=238.4ms y=-0.0297 best=-0.0297
+23:06:09 [matmul_bo_s2] 2/50 key=10010010001001 status=OK median=242.0ms y=-0.0099 best=-0.0297
+23:06:10 [matmul_bo_s2] 3/50 key=00011000011010 status=OK median=242.0ms y=-0.0099 best=-0.0297 (reused)
+23:06:14 [matmul_bo_s2] 4/50 key=11101110001100 status=OK median=246.2ms y=+0.0341 best=-0.0297
+23:06:18 [matmul_bo_s2] 5/50 key=01011100011000 status=OK median=236.9ms y=+0.0114 best=-0.0297
+23:06:26 [matmul_bo_s2] 6/50 key=11011000011100 status=OK median=264.1ms y=+0.1074 best=-0.0297
+23:06:30 [matmul_bo_s2] 7/50 key=00111011011100 status=OK median=244.6ms y=+0.0414 best=-0.0297
+23:06:31 [matmul_bo_s2] 8/50 key=01111110000000 status=OK median=236.9ms y=+0.0114 best=-0.0297 (reused)
+23:06:31 [matmul_bo_s2] 9/50 key=00011011101011 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=1.14e-03 (reused)
+23:06:32 [matmul_bo_s2] 10/50 key=11101111111011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=2.38e-03 (reused)
+23:06:33 [matmul_bo_s2] 11/50 key=10101111111011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=2.66e-03 (reused)
+23:06:35 [matmul_bo_s2] 12/50 key=11101110111011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=2.86e-03 (reused)
+23:06:36 [matmul_bo_s2] 13/50 key=01101111111011 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=2.97e-03 (reused)
+23:06:37 [matmul_bo_s2] 14/50 key=11100111111011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=2.61e-03 (reused)
+23:06:41 [matmul_bo_s2] 15/50 key=11101011111011 status=OK median=234.8ms y=+0.0075 best=-0.0297 EI=2.99e-03
+23:06:42 [matmul_bo_s2] 16/50 key=01100111001010 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=1.75e-03 (reused)
+23:06:43 [matmul_bo_s2] 17/50 key=11101111011011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=1.63e-03 (reused)
+23:06:44 [matmul_bo_s2] 18/50 key=10010100000000 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=1.28e-03 (reused)
+23:06:48 [matmul_bo_s2] 19/50 key=11001011100111 status=OK median=242.9ms y=+0.0327 best=-0.0297 EI=1.43e-03
+23:06:49 [matmul_bo_s2] 20/50 key=00000000110001 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=8.46e-04 (reused)
+23:06:50 [matmul_bo_s2] 21/50 key=01000110100111 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=6.50e-04 (reused)
+23:06:51 [matmul_bo_s2] 22/50 key=00100000110111 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=7.27e-05 (reused)
+23:06:52 [matmul_bo_s2] 23/50 key=00110111110101 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=5.65e-05 (reused)
+23:06:53 [matmul_bo_s2] 24/50 key=00111000001100 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=4.60e-06 (reused)
+23:06:58 [matmul_bo_s2] 25/50 key=10111111111110 status=OK median=264.2ms y=+0.1257 best=-0.0297 EI=1.71e-05
+23:06:59 [matmul_bo_s2] 26/50 key=01100010111001 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=1.45e-03 (reused)
+23:07:03 [matmul_bo_s2] 27/50 key=10001011110010 status=OK median=234.5ms y=+0.0049 best=-0.0297 EI=8.13e-04
+23:07:04 [matmul_bo_s2] 28/50 key=11110110001011 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=1.83e-03 (reused)
+23:07:05 [matmul_bo_s2] 29/50 key=11110100100111 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=0.00e+00 (reused)
+23:07:07 [matmul_bo_s2] 30/50 key=00100100000001 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=1.00e-04 (reused)
+23:07:08 [matmul_bo_s2] 31/50 key=00011100100100 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=0.00e+00 (reused)
+23:07:09 [matmul_bo_s2] 32/50 key=11011100011101 status=OK median=264.2ms y=+0.1257 best=-0.0297 EI=1.00e-04 (reused)
+23:07:10 [matmul_bo_s2] 33/50 key=00010000101111 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=0.00e+00 (reused)
+23:07:11 [matmul_bo_s2] 34/50 key=01001100101110 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=0.00e+00 (reused)
+23:07:13 [matmul_bo_s2] 35/50 key=10100110011011 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=0.00e+00 (reused)
+23:07:14 [matmul_bo_s2] 36/50 key=10010100001001 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=0.00e+00 (reused)
+23:07:15 [matmul_bo_s2] 37/50 key=11000110100110 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=0.00e+00 (reused)
+23:07:16 [matmul_bo_s2] 38/50 key=11101100000011 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=0.00e+00 (reused)
+23:07:18 [matmul_bo_s2] 39/50 key=00001000110011 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=0.00e+00 (reused)
+23:07:19 [matmul_bo_s2] 40/50 key=00011011110100 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=0.00e+00 (reused)
+23:07:20 [matmul_bo_s2] 41/50 key=10101100011000 status=OK median=238.4ms y=-0.0297 best=-0.0297 EI=0.00e+00 (reused)
+23:07:22 [matmul_bo_s2] 42/50 key=00101010110110 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=0.00e+00 (reused)
+23:07:23 [matmul_bo_s2] 43/50 key=00000100110010 status=OK median=236.9ms y=+0.0114 best=-0.0297 EI=0.00e+00 (reused)
+23:07:24 [matmul_bo_s2] 44/50 key=01101100000111 status=OK median=246.2ms y=+0.0341 best=-0.0297 EI=0.00e+00 (reused)
+23:07:25 [matmul_bo_s2] 45/50 key=01000000001110 status=OK median=244.6ms y=+0.0414 best=-0.0297 EI=0.00e+00 (reused)
+23:07:33 [matmul_bo_s2] 46/50 key=10000011110101 status=OK median=250.9ms y=+0.0660 best=-0.0297 EI=0.00e+00
+23:07:35 [matmul_bo_s2] 47/50 key=01101010100000 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=2.40e-07 (reused)
+23:07:39 [matmul_bo_s2] 48/50 key=11010100010001 status=OK median=235.6ms y=+0.0112 best=-0.0297 EI=1.67e-05
+23:07:41 [matmul_bo_s2] 49/50 key=10100011100000 status=OK median=242.0ms y=-0.0099 best=-0.0297 EI=8.69e-06 (reused)
+23:07:42 [matmul_bo_s2] 50/50 key=10110000001110 status=OK median=242.9ms y=+0.0327 best=-0.0297 EI=7.69e-11 (reused)
+23:07:42 [matmul_bo_s2] best y=-0.0297 (+2.92% vs -O3 during search) flags: (same as O3)

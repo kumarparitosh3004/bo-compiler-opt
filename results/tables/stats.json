@@ -1,0 +1,29 @@
+{
+  "geomean_speedup_vs_O3_bo": 1.0353,
+  "geomean_speedup_vs_O3_random": 1.0333,
+  "verdict_counts": {
+    "bo": {
+      "faster": 6,
+      "no measurable difference": 20,
+      "slower": 1
+    },
+    "random": {
+      "faster": 6,
+      "no measurable difference": 20,
+      "slower": 1
+    }
+  },
+  "total_search_wall_time_h": 5.05,
+  "total_evaluations": 2700,
+  "self_pair_O3_ratio": {
+    "n": 53,
+    "mean": 1.002,
+    "sd": 0.0242,
+    "min": 0.9324,
+    "max": 1.1212
+  },
+  "median_best@20_pct_bo": 2.53,
+  "median_best@50_pct_bo": 3.041,
+  "median_best@20_pct_random": 2.539,
+  "median_best@50_pct_random": 3.401
+}

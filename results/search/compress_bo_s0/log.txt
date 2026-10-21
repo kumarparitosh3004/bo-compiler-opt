@@ -1,0 +1,51 @@
+22:13:04 [compress_bo_s0] 1/50 key=11111111111011 status=OK median=343.1ms y=-0.0125 best=-0.0125
+22:13:09 [compress_bo_s0] 2/50 key=01111100011111 status=OK median=338.7ms y=-0.0080 best=-0.0125
+22:13:15 [compress_bo_s0] 3/50 key=00111010000100 status=OK median=342.7ms y=+0.0022 best=-0.0125
+22:13:16 [compress_bo_s0] 4/50 key=10000010000100 status=OK median=342.7ms y=+0.0022 best=-0.0125 (reused)
+22:13:21 [compress_bo_s0] 5/50 key=01001100110001 status=OK median=345.0ms y=-0.0169 best=-0.0169
+22:13:31 [compress_bo_s0] 6/50 key=01110011101110 status=OK median=334.4ms y=-0.0242 best=-0.0242
+22:13:37 [compress_bo_s0] 7/50 key=01110100010000 status=OK median=341.7ms y=-0.0005 best=-0.0242
+22:13:42 [compress_bo_s0] 8/50 key=01111111001011 status=OK median=339.0ms y=-0.0069 best=-0.0242
+22:13:43 [compress_bo_s0] 9/50 key=10101010100110 status=OK median=342.7ms y=+0.0022 best=-0.0242 EI=1.09e-06 (reused)
+22:13:49 [compress_bo_s0] 10/50 key=10001100011000 status=OK median=341.8ms y=+0.0105 best=-0.0242 EI=2.46e-06
+22:13:54 [compress_bo_s0] 11/50 key=01001000110001 status=OK median=341.3ms y=-0.0072 best=-0.0242 EI=2.34e-05
+22:13:55 [compress_bo_s0] 12/50 key=10101100011010 status=OK median=341.8ms y=+0.0105 best=-0.0242 EI=5.41e-05 (reused)
+22:14:01 [compress_bo_s0] 13/50 key=01110011101010 status=OK median=341.8ms y=+0.0122 best=-0.0242 EI=1.51e-05
+22:14:07 [compress_bo_s0] 14/50 key=01110111101110 status=OK median=337.5ms y=-0.0019 best=-0.0242 EI=2.80e-05
+22:14:12 [compress_bo_s0] 15/50 key=11001000110100 status=OK median=341.9ms y=+0.0108 best=-0.0242 EI=1.85e-05
+22:14:18 [compress_bo_s0] 16/50 key=00110011011100 status=OK median=340.9ms y=-0.0023 best=-0.0242 EI=3.08e-05
+22:14:19 [compress_bo_s0] 17/50 key=01011110110001 status=OK median=345.0ms y=-0.0169 best=-0.0242 EI=1.29e-06 (reused)
+22:14:24 [compress_bo_s0] 18/50 key=11001011011100 status=OK median=342.3ms y=+0.0145 best=-0.0242 EI=9.89e-06
+22:14:30 [compress_bo_s0] 19/50 key=11100000000100 status=OK median=343.8ms y=+0.0043 best=-0.0242 EI=1.11e-06
+22:14:36 [compress_bo_s0] 20/50 key=01001000010100 status=OK median=340.6ms y=+0.0097 best=-0.0242 EI=1.78e-05
+22:14:37 [compress_bo_s0] 21/50 key=00110011111100 status=OK median=340.9ms y=-0.0023 best=-0.0242 EI=1.81e-05 (reused)
+22:14:38 [compress_bo_s0] 22/50 key=11011000010110 status=OK median=341.9ms y=+0.0108 best=-0.0242 EI=2.04e-05 (reused)
+22:14:48 [compress_bo_s0] 23/50 key=10000011000110 status=OK median=334.9ms y=-0.0277 best=-0.0277 EI=6.74e-06
+22:14:54 [compress_bo_s0] 24/50 key=01011110100001 status=OK median=352.3ms y=+0.0216 best=-0.0277 EI=1.52e-06
+22:15:00 [compress_bo_s0] 25/50 key=10000111000110 status=OK median=335.5ms y=-0.0222 best=-0.0277 EI=1.42e-05
+22:15:01 [compress_bo_s0] 26/50 key=10010011101100 status=OK median=334.4ms y=-0.0242 best=-0.0277 EI=8.63e-05 (reused)
+22:15:07 [compress_bo_s0] 27/50 key=10110100111011 status=OK median=335.0ms y=-0.0159 best=-0.0277 EI=1.18e-05
+22:15:08 [compress_bo_s0] 28/50 key=00110011010011 status=OK median=341.3ms y=-0.0072 best=-0.0277 EI=9.91e-06 (reused)
+22:15:14 [compress_bo_s0] 29/50 key=01010011000111 status=OK median=334.0ms y=-0.0258 best=-0.0277 EI=5.99e-06
+22:15:20 [compress_bo_s0] 30/50 key=01010000111010 status=OK median=342.4ms y=+0.0087 best=-0.0277 EI=1.60e-05
+22:15:21 [compress_bo_s0] 31/50 key=01011011100110 status=OK median=334.9ms y=-0.0277 best=-0.0277 EI=1.38e-04 (reused)
+22:15:22 [compress_bo_s0] 32/50 key=10000011000111 status=OK median=334.0ms y=-0.0258 best=-0.0277 EI=1.58e-04 (reused)
+22:15:28 [compress_bo_s0] 33/50 key=10000111000111 status=OK median=334.6ms y=-0.0090 best=-0.0277 EI=9.41e-05
+22:15:34 [compress_bo_s0] 34/50 key=10011111010000 status=OK median=346.6ms y=+0.0213 best=-0.0277 EI=2.22e-05
+22:15:40 [compress_bo_s0] 35/50 key=00110111010101 status=OK median=342.3ms y=-0.0068 best=-0.0277 EI=2.48e-05
+22:15:46 [compress_bo_s0] 36/50 key=00100100101101 status=OK median=342.7ms y=+0.0039 best=-0.0277 EI=2.64e-05
+22:15:52 [compress_bo_s0] 37/50 key=01111011101111 status=OK median=336.0ms y=-0.0118 best=-0.0277 EI=8.86e-05
+22:15:54 [compress_bo_s0] 38/50 key=00011011001101 status=OK median=336.0ms y=-0.0118 best=-0.0277 EI=5.37e-05 (reused)
+22:15:55 [compress_bo_s0] 39/50 key=10101011001100 status=OK median=334.4ms y=-0.0242 best=-0.0277 EI=3.58e-05 (reused)
+22:16:01 [compress_bo_s0] 40/50 key=01000100100000 status=OK median=337.0ms y=-0.0129 best=-0.0277 EI=2.11e-05
+22:16:07 [compress_bo_s0] 41/50 key=10011010001010 status=OK median=341.8ms y=+0.0067 best=-0.0277 EI=2.88e-05
+22:16:13 [compress_bo_s0] 42/50 key=10001010110111 status=OK median=342.0ms y=-0.0043 best=-0.0277 EI=1.38e-05
+22:16:19 [compress_bo_s0] 43/50 key=10000011100001 status=OK median=343.3ms y=+0.0001 best=-0.0277 EI=1.45e-05
+22:16:25 [compress_bo_s0] 44/50 key=11000100111100 status=OK median=348.1ms y=+0.0044 best=-0.0277 EI=1.66e-05
+22:16:26 [compress_bo_s0] 45/50 key=00101111100110 status=OK median=335.5ms y=-0.0222 best=-0.0277 EI=1.10e-05 (reused)
+22:16:32 [compress_bo_s0] 46/50 key=11011011111111 status=OK median=338.9ms y=+0.0087 best=-0.0277 EI=8.50e-06
+22:16:38 [compress_bo_s0] 47/50 key=00011111110110 status=OK median=343.9ms y=-0.0098 best=-0.0277 EI=2.90e-06
+22:16:44 [compress_bo_s0] 48/50 key=11010010000101 status=OK median=337.2ms y=-0.0204 best=-0.0277 EI=8.64e-06
+22:16:50 [compress_bo_s0] 49/50 key=10001111000000 status=OK median=343.3ms y=+0.0036 best=-0.0277 EI=2.38e-06
+22:16:56 [compress_bo_s0] 50/50 key=01001000101111 status=OK median=343.4ms y=+0.0061 best=-0.0277 EI=4.35e-06
+22:16:57 [compress_bo_s0] best y=-0.0277 (+2.73% vs -O3 during search) flags: -inline-functions -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -gcse -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -split-paths

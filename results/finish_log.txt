@@ -1,0 +1,443 @@
+05:02:40 [search_random_s2] resuming with 6 completed evaluations
+05:03:10 [search_random_s2] 7/50 key=00111011011100 status=OK median=349.6ms y=+0.0042 best=-0.0067
+05:03:23 [search_random_s2] 8/50 key=01111110000000 status=OK median=349.2ms y=+0.0114 best=-0.0067
+05:03:36 [search_random_s2] 9/50 key=01101100100000 status=OK median=345.9ms y=-0.0014 best=-0.0067
+05:03:49 [search_random_s2] 10/50 key=00100110111010 status=OK median=345.7ms y=-0.0079 best=-0.0079
+05:04:02 [search_random_s2] 11/50 key=11011010010000 status=OK median=347.2ms y=+0.0185 best=-0.0079
+05:04:15 [search_random_s2] 12/50 key=01101110000100 status=OK median=341.3ms y=+0.0077 best=-0.0079
+05:04:28 [search_random_s2] 13/50 key=11110000000011 status=OK median=342.9ms y=-0.0220 best=-0.0220
+05:04:29 [search_random_s2] 14/50 key=11001100001010 status=OK median=328.3ms y=-0.0045 best=-0.0220 (reused)
+05:04:29 [search_random_s2] 15/50 key=11010000001000 status=OK median=332.5ms y=-0.0029 best=-0.0220 (reused)
+05:04:42 [search_random_s2] 16/50 key=00001100010110 status=OK median=340.4ms y=-0.0053 best=-0.0220
+05:05:08 [search_random_s2] 17/50 key=11111000010100 status=OK median=344.0ms y=-0.0105 best=-0.0220
+05:05:09 [search_random_s2] 18/50 key=11101111101000 status=OK median=345.7ms y=-0.0079 best=-0.0220 (reused)
+05:05:22 [search_random_s2] 19/50 key=11111100000101 status=OK median=338.4ms y=-0.0059 best=-0.0220
+05:05:35 [search_random_s2] 20/50 key=00101110100111 status=OK median=346.3ms y=-0.0186 best=-0.0220
+05:05:47 [search_random_s2] 21/50 key=00111100001100 status=OK median=340.3ms y=+0.0214 best=-0.0220
+05:05:48 [search_random_s2] 22/50 key=11110100100111 status=OK median=338.4ms y=-0.0059 best=-0.0220 (reused)
+05:06:01 [search_random_s2] 23/50 key=00000000111101 status=OK median=335.1ms y=-0.0027 best=-0.0220
+05:06:14 [search_random_s2] 24/50 key=00011100110011 status=OK median=347.5ms y=-0.0128 best=-0.0220
+05:06:27 [search_random_s2] 25/50 key=01111011111000 status=OK median=343.7ms y=-0.0005 best=-0.0220
+05:06:28 [search_random_s2] 26/50 key=00101010111001 status=OK median=331.4ms y=-0.0067 best=-0.0220 (reused)
+05:06:28 [search_random_s2] 27/50 key=00000100000000 status=OK median=345.9ms y=-0.0014 best=-0.0220 (reused)
+05:06:41 [search_random_s2] 28/50 key=00001010000011 status=OK median=342.8ms y=+0.0020 best=-0.0220
+05:06:42 [search_random_s2] 29/50 key=01010000101101 status=OK median=335.1ms y=-0.0027 best=-0.0220 (reused)
+05:06:55 [search_random_s2] 30/50 key=00001100010101 status=OK median=342.2ms y=+0.0020 best=-0.0220
+05:06:56 [search_random_s2] 31/50 key=11101000111110 status=RUN_TIMEOUT median=- y=fail best=-0.0220 (reused)
+05:06:57 [search_random_s2] 32/50 key=01101010111100 status=OK median=349.6ms y=+0.0042 best=-0.0220 (reused)
+05:06:57 [search_random_s2] 33/50 key=11001010010000 status=OK median=347.2ms y=+0.0185 best=-0.0220 (reused)
+05:06:58 [search_random_s2] 34/50 key=01011111000110 status=OK median=341.3ms y=+0.0077 best=-0.0220 (reused)
+05:07:11 [search_random_s2] 35/50 key=10000011001101 status=OK median=345.5ms y=-0.0128 best=-0.0220
+05:07:12 [search_random_s2] 36/50 key=10111111111000 status=OK median=345.7ms y=-0.0079 best=-0.0220 (reused)
+05:07:13 [search_random_s2] 37/50 key=01110011111001 status=OK median=331.4ms y=-0.0067 best=-0.0220 (reused)
+05:07:14 [search_random_s2] 38/50 key=10000011000011 status=OK median=342.8ms y=+0.0020 best=-0.0220 (reused)
+05:07:27 [search_random_s2] 39/50 key=10110000101111 status=OK median=339.4ms y=-0.0037 best=-0.0220
+05:07:39 [search_random_s2] 40/50 key=10101111111111 status=OK median=337.9ms y=-0.0081 best=-0.0220
+05:07:40 [search_random_s2] 41/50 key=01101111011001 status=OK median=335.1ms y=+0.0170 best=-0.0220 (reused)
+05:07:53 [search_random_s2] 42/50 key=01000100111001 status=OK median=346.1ms y=-0.0151 best=-0.0220
+05:08:06 [search_random_s2] 43/50 key=01111000110010 status=OK median=345.1ms y=-0.0067 best=-0.0220
+05:08:07 [search_random_s2] 44/50 key=11010110110000 status=OK median=349.2ms y=+0.0114 best=-0.0220 (reused)
+05:08:20 [search_random_s2] 45/50 key=00001100101101 status=OK median=339.9ms y=-0.0121 best=-0.0220
+05:08:21 [search_random_s2] 46/50 key=01101000001100 status=RUN_TIMEOUT median=- y=fail best=-0.0220 (reused)
+05:08:22 [search_random_s2] 47/50 key=01011100011101 status=OK median=339.9ms y=-0.0121 best=-0.0220 (reused)
+05:08:34 [search_random_s2] 48/50 key=00011000110101 status=OK median=331.9ms y=-0.0191 best=-0.0220
+05:08:35 [search_random_s2] 49/50 key=01011100001101 status=OK median=339.9ms y=-0.0121 best=-0.0220 (reused)
+05:08:48 [search_random_s2] 50/50 key=11011000011011 status=OK median=337.5ms y=-0.0258 best=-0.0258
+05:08:48 [search_random_s2] best y=-0.0258 (+2.54% vs -O3 during search) flags: -inline-small-functions -gcse -tree-pre -tree-partial-pre -gcse-after-reload
+{
+  "evaluations": 50,
+  "unique_binaries": 31,
+  "measured_runs": 30,
+  "status_counts": {
+    "OK": 47,
+    "RUN_TIMEOUT": 3
+  },
+  "total_compile_time_s": 41.11,
+  "search_wall_time_s": 2231.8,
+  "t_ref_O3_ns": null,
+  "best_eval_id": 49,
+  "best_key": "11011000011011",
+  "best_flags": "-O3 -fno-inline-small-functions -fno-gcse -fno-tree-pre -fno-tree-partial-pre -fno-gcse-after-reload",
+  "best_y": -0.025755,
+  "best_pct_faster_than_O3": 2.543,
+  "best_diff_vs_O3": "-inline-small-functions -gcse -tree-pre -tree-partial-pre -gcse-after-reload"
+}
+05:08:52 [wordfreq_bo_s2] resuming with 32 completed evaluations
+05:08:57 [wordfreq_bo_s2] 33/50 key=00000110111001 status=OK median=258.2ms y=-0.0099 best=-0.0411 EI=8.76e-04
+05:09:02 [wordfreq_bo_s2] 34/50 key=00100100111111 status=OK median=273.6ms y=+0.0699 best=-0.0411 EI=6.12e-06
+05:09:03 [wordfreq_bo_s2] 35/50 key=11101100101010 status=OK median=321.7ms y=+0.0214 best=-0.0411 EI=7.28e-06 (reused)
+05:09:08 [wordfreq_bo_s2] 36/50 key=10111000100101 status=OK median=279.4ms y=+0.0837 best=-0.0411 EI=2.71e-06
+05:09:13 [wordfreq_bo_s2] 37/50 key=01111111001010 status=OK median=270.9ms y=+0.0314 best=-0.0411 EI=1.05e-06
+05:09:22 [wordfreq_bo_s2] 38/50 key=10001110111000 status=OK median=257.4ms y=-0.0082 best=-0.0411 EI=2.56e-04
+05:09:27 [wordfreq_bo_s2] 39/50 key=00101000010001 status=OK median=263.4ms y=+0.0086 best=-0.0411 EI=4.62e-05
+05:09:32 [wordfreq_bo_s2] 40/50 key=01101000111001 status=OK median=258.0ms y=+0.0142 best=-0.0411 EI=2.33e-06
+05:09:36 [wordfreq_bo_s2] 41/50 key=01011100001010 status=OK median=271.0ms y=+0.0580 best=-0.0411 EI=6.45e-07
+05:09:41 [wordfreq_bo_s2] 42/50 key=01101011110010 status=OK median=249.8ms y=-0.0363 best=-0.0411 EI=2.61e-07
+05:09:46 [wordfreq_bo_s2] 43/50 key=01101011011010 status=OK median=256.4ms y=-0.0180 best=-0.0411 EI=4.02e-05
+05:09:48 [wordfreq_bo_s2] 44/50 key=01011010110010 status=OK median=302.7ms y=-0.0361 best=-0.0411 EI=7.26e-06 (reused)
+05:09:49 [wordfreq_bo_s2] 45/50 key=01000010110011 status=OK median=302.7ms y=-0.0361 best=-0.0411 EI=1.23e-05 (reused)
+05:09:51 [wordfreq_bo_s2] 46/50 key=11000000111001 status=OK median=325.2ms y=+0.0116 best=-0.0411 EI=5.32e-08 (reused)
+05:09:56 [wordfreq_bo_s2] 47/50 key=00101111010001 status=OK median=258.4ms y=+0.0061 best=-0.0411 EI=3.07e-06
+05:10:01 [wordfreq_bo_s2] 48/50 key=01111110011001 status=OK median=252.0ms y=-0.0064 best=-0.0411 EI=1.99e-05
+05:10:06 [wordfreq_bo_s2] 49/50 key=10110010110010 status=OK median=259.5ms y=+0.0028 best=-0.0411 EI=1.54e-03
+05:10:10 [wordfreq_bo_s2] 50/50 key=10011100110010 status=OK median=252.8ms y=-0.0028 best=-0.0411 EI=8.74e-04
+05:10:11 [wordfreq_bo_s2] best y=-0.0411 (+4.03% vs -O3 during search) flags: base -O2 -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-slp-vectorize -unswitch-loops -split-paths
+{
+  "evaluations": 50,
+  "unique_binaries": 42,
+  "measured_runs": 42,
+  "status_counts": {
+    "OK": 50
+  },
+  "total_compile_time_s": 49.62,
+  "search_wall_time_s": 2072.3,
+  "t_ref_O3_ns": null,
+  "best_eval_id": 16,
+  "best_key": "00001011110000",
+  "best_flags": "-O2 -fno-inline-functions -fno-inline-small-functions -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize",
+  "best_y": -0.04109,
+  "best_pct_faster_than_O3": 4.026,
+  "best_diff_vs_O3": "base -O2 -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-slp-vectorize -unswitch-loops -split-paths"
+}
+
+== search (args 4000000 1500000)
+  O0         OK           -O0
+  O1         OK           -O1
+  O2         OK           -O2
+  O3         OK           -O3
+  bo_s0      OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -fno-tree-loop-vectorize -fno-tree-slp-vectorize -funroll-all-loops
+  bo_s1      OK           -O3
+  bo_s2      OK           -O2 -fno-inline-functions -fno-inline-small-functions -fipa-cp-clone -fno-gcse -ftree-partial-pre -fno-tree-loop-vectorize -fno-tree-slp-vectorize -funroll-all-loops -funswitch-loops
+  random_s0  OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone -fno-tree-pre -fno-tree-partial-pre
+  random_s1  OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -fno-tree-loop-vectorize -funroll-all-loops -fsplit-paths
+  random_s2  OK           -O3 -fno-inline-small-functions -fno-gcse -fno-tree-pre -fno-tree-partial-pre -fno-gcse-after-reload
+  O0         median   464.75 ms  (n=15)
+  O1         median   361.24 ms  (n=15)
+  O2         median   340.42 ms  (n=15)
+  O3         median   339.23 ms  (n=15)
+  bo_s0      median   336.21 ms  (n=15)
+  bo_s1      median   342.52 ms  (n=15)
+  bo_s2      median   339.51 ms  (n=15)
+  random_s0  median   336.88 ms  (n=15)
+  random_s1  median   337.42 ms  (n=15)
+  random_s2  median   337.69 ms  (n=15)
+
+== wordfreq (args C:\Users\Krish Singh\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\aa579763-fa5d-433a-b943-1bb9d057b1da\c6dd4953-a73b-47fc-9b08-e66c2ef861e5\scratch-2026-10-13-b58ce2\bo-compiler-opt\benchmarks\data\corpus.txt 10)
+  O0         OK           -O0
+  O1         OK           -O1
+  O2         OK           -O2
+  O3         OK           -O3
+  bo_s0      OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone
+  bo_s1      OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-optimize-sibling-calls -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize -funswitch-loops -fsplit-paths
+  bo_s2      OK           -O2 -fno-inline-functions -fno-inline-small-functions -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize
+  random_s0  OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone -fno-tree-pre -fno-tree-partial-pre
+  random_s1  OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize -funswitch-loops
+  random_s2  OK           -O3 -fno-inline-small-functions -fno-optimize-sibling-calls -fno-tree-partial-pre -fno-tree-slp-vectorize -fno-unswitch-loops -fno-split-paths
+  O0         median   532.48 ms  (n=15)
+  O1         median   270.89 ms  (n=15)
+  O2         median   258.84 ms  (n=15)
+  O3         median   258.47 ms  (n=15)
+  bo_s0      median   257.07 ms  (n=15)
+  bo_s1      median   255.67 ms  (n=15)
+  bo_s2      median   255.46 ms  (n=15)
+  random_s0  median   255.25 ms  (n=15)
+  random_s1  median   255.83 ms  (n=15)
+  random_s2  median   257.79 ms  (n=15)
+
+wrote results/final/candidates.csv and final_runs.csv
+
+== search (args 8000000 3000000)
+  O0         OK           -O0
+  O1         OK           -O1
+  O2         OK           -O2
+  O3         OK           -O3
+  bo_s0      OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -fno-tree-loop-vectorize -fno-tree-slp-vectorize -funroll-all-loops
+  bo_s1      OK           -O3
+  bo_s2      OK           -O2 -fno-inline-functions -fno-inline-small-functions -fipa-cp-clone -fno-gcse -ftree-partial-pre -fno-tree-loop-vectorize -fno-tree-slp-vectorize -funroll-all-loops -funswitch-loops
+  random_s0  OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone -fno-tree-pre -fno-tree-partial-pre
+  random_s1  OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -fno-tree-loop-vectorize -funroll-all-loops -fsplit-paths
+  random_s2  OK           -O3 -fno-inline-small-functions -fno-gcse -fno-tree-pre -fno-tree-partial-pre -fno-gcse-after-reload
+  O0         median  1141.48 ms  (n=15)
+  O1         median   938.06 ms  (n=15)
+  O2         median   879.70 ms  (n=15)
+  O3         median   881.19 ms  (n=15)
+  bo_s0      median   882.98 ms  (n=15)
+  bo_s1      median   885.44 ms  (n=15)
+  bo_s2      median   883.96 ms  (n=15)
+  random_s0  median   878.21 ms  (n=15)
+  random_s1  median   877.82 ms  (n=15)
+  random_s2  median   876.21 ms  (n=15)
+
+== wordfreq (args C:\Users\Krish Singh\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\scratch-workspaces\aa579763-fa5d-433a-b943-1bb9d057b1da\c6dd4953-a73b-47fc-9b08-e66c2ef861e5\scratch-2026-10-13-b58ce2\bo-compiler-opt\benchmarks\data\corpus.txt 20)
+  O0         OK           -O0
+  O1         OK           -O1
+  O2         OK           -O2
+  O3         OK           -O3
+  bo_s0      OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone
+  bo_s1      OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-optimize-sibling-calls -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize -funswitch-loops -fsplit-paths
+  bo_s2      OK           -O2 -fno-inline-functions -fno-inline-small-functions -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize
+  random_s0  OK           -O3 -fno-inline-functions -fno-inline-small-functions -fno-ipa-cp-clone -fno-tree-pre -fno-tree-partial-pre
+  random_s1  OK           -O2 -fno-inline-functions -fipa-cp-clone -fno-gcse -ftree-partial-pre -fgcse-after-reload -fno-tree-slp-vectorize -funswitch-loops
+  random_s2  OK           -O3 -fno-inline-small-functions -fno-optimize-sibling-calls -fno-tree-partial-pre -fno-tree-slp-vectorize -fno-unswitch-loops -fno-split-paths
+  O0         median  1058.93 ms  (n=15)
+  O1         median   536.51 ms  (n=15)
+  O2         median   509.82 ms  (n=15)
+  O3         median   509.82 ms  (n=15)
+  bo_s0      median   508.38 ms  (n=15)
+  bo_s1      median   502.16 ms  (n=15)
+  bo_s2      median   510.84 ms  (n=15)
+  random_s0  median   503.33 ms  (n=15)
+  random_s1  median   507.63 ms  (n=15)
+  random_s2  median   511.81 ms  (n=15)
+
+wrote results/final/candidates_alt.csv and final_runs_alt.csv
+# Results tables
+
+Generated by `scripts/analyze.py` from raw CSVs. Do not edit by hand.
+
+## T1 - Baselines (median kernel time, Phase 2 harness)
+
+| benchmark | -O0 (ms) | -O1 (ms) | -O2 (ms) | -O3 (ms) | -O3 .text (B) | -O3 compile (s) | noise floor CV |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| matmul | 1179.32 | 230.45 | 235.29 | 233.68 | 16740 | 0.82 | 1.18% |
+| sort | 414.43 | 253.76 | 245.16 | 247.76 | 16712 | 0.83 | 5.53% |
+| search | 444.88 | 361.69 | 327.54 | 331.68 | 16592 | 0.81 | 8.04% |
+| stencil | 1832.43 | 338.66 | 334.98 | 224.5 | 16932 | 0.81 | 9.66% |
+| recursive | 285.89 | 182.05 | 134.51 | 116.5 | 21276 | 1.08 | 2.40% |
+| arith | 704.69 | 327.29 | 324.83 | 324.62 | 16336 | 0.78 | 2.08% |
+| compress | 535.5 | 330.01 | 328.16 | 331.09 | 17932 | 0.88 | 1.10% |
+| sha256 | 835.22 | 207.24 | 213.54 | 210.89 | 20308 | 0.87 | 3.13% |
+| wordfreq | 517.34 | 259.73 | 246.77 | 246.77 | 18156 | 0.82 | 2.27% |
+
+## T2 - Main results (Step B: 15 interleaved runs, speed-up = t(-O3) / t(method))
+
+| benchmark | -O2 (ms) | -O3 (ms) | bo speed-up vs -O3 (median of seeds) | bo range | bo seeds faster/same/slower | random speed-up vs -O3 (median of seeds) | random range | random seeds faster/same/slower |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| matmul | 237.43 | 231.63 | 0.99 | 0.975-0.992 | 0/2/1 | 1.0 | 0.974-0.999 | 0/2/1 |
+| sort | 245.5 | 247.12 | 1.02 | 1.006-1.020 | 0/3/0 | 1.02 | 1.005-1.019 | 0/3/0 |
+| search | 340.42 | 339.23 | 1.0 | 0.990-1.009 | 0/3/0 | 1.01 | 1.005-1.007 | 0/3/0 |
+| stencil | 338.28 | 228.92 | 1.06 | 1.019-1.077 | 0/3/0 | 1.05 | 1.015-1.074 | 0/3/0 |
+| recursive | 134.7 | 116.29 | 1.16 | 1.157-1.166 | 3/0/0 | 1.15 | 1.116-1.155 | 3/0/0 |
+| arith | 327.03 | 327.43 | 1.0 | 0.995-1.009 | 0/3/0 | 1.0 | 0.987-1.003 | 0/3/0 |
+| compress | 329.55 | 327.14 | 1.0 | 0.998-1.011 | 0/3/0 | 0.99 | 0.987-1.006 | 0/3/0 |
+| sha256 | 215.58 | 210.06 | 1.09 | 1.080-1.092 | 3/0/0 | 1.08 | 1.074-1.091 | 3/0/0 |
+| wordfreq | 258.84 | 258.47 | 1.01 | 1.005-1.012 | 0/3/0 | 1.01 | 1.003-1.013 | 0/3/0 |
+| geometric mean |  |  | 1.0353 |  |  | 1.0333 |  |  |
+
+## T2b - Per seed: significance, size and compile-time cost
+
+| benchmark | method | seed | flags vs -O3 | median (ms) | speed-up vs -O3 | change | 95% CI | p (MWU) | verdict | speed-up vs -O2 | .text vs -O3 | compile time vs -O3 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| matmul | bo | 0 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -unswitch-loops -split-paths | 234.54 | 0.9876 | -1.3% | [0.979, 1.004] | 0.147 | no measurable difference | 1.0123 | +0.0% | -4.8% |
+| matmul | bo | 1 | base -O2 -inline-functions -gcse-after-reload -unswitch-loops -split-paths | 237.48 | 0.9754 | -2.5% | [0.971, 0.993] | 0.0144 | slower | 0.9998 | -2.1% | -6.6% |
+| matmul | bo | 2 | (same as O3) | 233.44 | 0.9922 | -0.8% | [0.983, 1.012] | 0.868 | no measurable difference | 1.0171 | +0.0% | -6.5% |
+| matmul | random | 0 | -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -split-paths | 232.65 | 0.9956 | -0.4% | [0.990, 1.008] | 0.772 | no measurable difference | 1.0206 | +0.0% | -5.7% |
+| matmul | random | 1 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -tree-slp-vectorize | 231.88 | 0.9989 | -0.1% | [0.982, 1.014] | 0.709 | no measurable difference | 1.0239 | +0.0% | -6.2% |
+| matmul | random | 2 | base -O2 -inline-small-functions -tree-pre -tree-partial-pre -gcse-after-reload -unswitch-loops -split-paths | 237.74 | 0.9743 | -2.6% | [0.965, 0.989] | 0.00794 | slower | 0.9987 | -2.1% | -5.8% |
+| sort | bo | 0 | -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -split-paths | 242.8 | 1.0178 | +1.7% | [1.009, 1.040] | 0.00078 | no measurable difference | 1.0111 | -0.0% | +0.1% |
+| sort | bo | 1 | -ipa-cp-clone -gcse -tree-pre -tree-partial-pre | 245.58 | 1.0062 | +0.6% | [0.993, 1.030] | 0.068 | no measurable difference | 0.9997 | +0.0% | -4.0% |
+| sort | bo | 2 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | 242.26 | 1.0201 | +2.0% | [1.005, 1.042] | 0.00162 | no measurable difference | 1.0134 | -0.0% | -2.1% |
+| sort | random | 0 | base -O2 -inline-functions -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -split-paths | 242.72 | 1.0181 | +1.8% | [0.999, 1.040] | 0.0279 | no measurable difference | 1.0114 | -0.0% | -3.4% |
+| sort | random | 1 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -tree-slp-vectorize | 245.94 | 1.0048 | +0.5% | [0.986, 1.025] | 0.32 | no measurable difference | 0.9982 | +0.0% | -2.7% |
+| sort | random | 2 | -inline-small-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops -split-paths | 242.5 | 1.0191 | +1.9% | [1.012, 1.042] | 0.00122 | no measurable difference | 1.0124 | -0.0% | -3.7% |
+| search | bo | 0 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | 336.21 | 1.009 | +0.9% | [0.994, 1.022] | 0.171 | no measurable difference | 1.0125 | +3.1% | -1.4% |
+| search | bo | 1 | (same as O3) | 342.52 | 0.9904 | -1.0% | [0.980, 1.013] | 0.678 | no measurable difference | 0.9939 | +0.0% | -1.1% |
+| search | bo | 2 | base -O2 -inline-functions -inline-small-functions -gcse -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -split-paths | 339.51 | 0.9992 | -0.1% | [0.985, 1.013] | 0.967 | no measurable difference | 1.0027 | +3.1% | -2.9% |
+| search | random | 0 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre | 336.88 | 1.007 | +0.7% | [0.989, 1.021] | 0.481 | no measurable difference | 1.0105 | +0.0% | -1.1% |
+| search | random | 1 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops | 337.42 | 1.0054 | +0.5% | [0.989, 1.018] | 0.507 | no measurable difference | 1.0089 | +1.2% | -0.5% |
+| search | random | 2 | -inline-small-functions -gcse -tree-pre -tree-partial-pre -gcse-after-reload | 337.69 | 1.0046 | +0.5% | [0.991, 1.020] | 0.407 | no measurable difference | 1.0081 | +0.0% | +0.2% |
+| stencil | bo | 0 | -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | 215.48 | 1.0624 | +5.9% | [0.994, 1.117] | 0.0225 | no measurable difference | 1.5699 | +9.3% | +4.0% |
+| stencil | bo | 1 | -inline-small-functions -gcse -unswitch-loops -split-paths | 224.58 | 1.0193 | +1.9% | [0.969, 1.097] | 0.068 | no measurable difference | 1.5063 | +0.4% | +0.3% |
+| stencil | bo | 2 | -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -gcse -tree-partial-pre +unroll-all-loops -unswitch-loops | 212.58 | 1.0769 | +7.1% | [1.015, 1.135] | 0.00323 | no measurable difference | 1.5913 | +9.3% | +0.6% |
+| stencil | random | 0 | -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -tree-slp-vectorize -split-paths | 218.89 | 1.0458 | +4.4% | [0.986, 1.111] | 0.089 | no measurable difference | 1.5454 | +0.0% | +3.2% |
+| stencil | random | 1 | -inline-functions -ipa-cp-clone -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload +unroll-all-loops -unswitch-loops -split-paths | 213.21 | 1.0737 | +6.9% | [1.000, 1.121] | 0.00421 | no measurable difference | 1.5866 | +9.3% | +5.7% |
+| stencil | random | 2 | -inline-small-functions -gcse -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -unswitch-loops -split-paths | 225.57 | 1.0149 | +1.5% | [0.974, 1.080] | 0.158 | no measurable difference | 1.4997 | +0.4% | +1.7% |
+| recursive | bo | 0 | -ipa-cp-clone -optimize-sibling-calls -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -unswitch-loops | 99.75 | 1.1659 | +14.2% | [1.141, 1.174] | 3.39e-06 | faster | 1.3504 | -16.0% | -19.7% |
+| recursive | bo | 1 | -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize | 100.5 | 1.1572 | +13.6% | [1.142, 1.173] | 3.39e-06 | faster | 1.3403 | -12.4% | -18.0% |
+| recursive | bo | 2 | -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload | 100.29 | 1.1596 | +13.8% | [1.143, 1.169] | 4.81e-05 | faster | 1.3431 | -12.4% | +36.5% |
+| recursive | random | 0 | -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize | 100.66 | 1.1553 | +13.4% | [1.139, 1.166] | 3.39e-06 | faster | 1.3381 | -12.4% | -6.9% |
+| recursive | random | 1 | -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize | 101.37 | 1.1473 | +12.8% | [1.129, 1.164] | 3.39e-06 | faster | 1.3289 | -12.5% | -3.6% |
+| recursive | random | 2 | -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize | 104.19 | 1.1162 | +10.4% | [1.103, 1.132] | 3.39e-06 | faster | 1.2929 | -4.3% | -3.6% |
+| arith | bo | 0 | (same as O3) | 324.62 | 1.0086 | +0.9% | [0.998, 1.027] | 0.106 | no measurable difference | 1.0074 | +0.0% | -19.0% |
+| arith | bo | 1 | base -O2 -inline-functions -ipa-cp-clone -optimize-sibling-calls -tree-partial-pre -gcse-after-reload -unswitch-loops -split-paths | 328.98 | 0.9953 | -0.5% | [0.987, 1.013] | 0.709 | no measurable difference | 0.9941 | +0.0% | -20.4% |
+| arith | bo | 2 | -inline-functions -inline-small-functions -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops | 328.97 | 0.9953 | -0.5% | [0.985, 1.017] | 0.934 | no measurable difference | 0.9941 | +0.1% | -21.8% |
+| arith | random | 0 | base -O2 -inline-functions -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops -split-paths | 328.43 | 0.997 | -0.3% | [0.986, 1.015] | 0.836 | no measurable difference | 0.9957 | +0.1% | -22.8% |
+| arith | random | 1 | -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops | 331.7 | 0.9871 | -1.3% | [0.978, 1.009] | 0.213 | no measurable difference | 0.9859 | +5.5% | -21.6% |
+| arith | random | 2 | base -O2 -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | 326.48 | 1.0029 | +0.3% | [0.994, 1.022] | 0.431 | no measurable difference | 1.0017 | +0.0% | -23.4% |
+| compress | bo | 0 | -inline-functions -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -gcse -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -split-paths | 323.44 | 1.0114 | +1.1% | [1.001, 1.022] | 0.00545 | no measurable difference | 1.0189 | +5.6% | +7.7% |
+| compress | bo | 1 | base -O2 -inline-functions -inline-small-functions -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | 326.87 | 1.0008 | +0.1% | [0.995, 1.009] | 0.361 | no measurable difference | 1.0082 | -2.5% | -3.3% |
+| compress | bo | 2 | base -O2 -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize -split-paths | 327.93 | 0.9976 | -0.2% | [0.990, 1.006] | 0.678 | no measurable difference | 1.005 | -2.5% | -4.1% |
+| compress | random | 0 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | 325.22 | 1.0059 | +0.6% | [1.002, 1.018] | 0.00282 | no measurable difference | 1.0133 | +5.5% | -1.0% |
+| compress | random | 1 | -inline-functions -gcse -tree-pre -tree-partial-pre -tree-slp-vectorize | 331.36 | 0.9873 | -1.3% | [0.978, 0.996] | 0.00187 | no measurable difference | 0.9946 | -0.4% | -3.9% |
+| compress | random | 2 | base -O2 -gcse -unswitch-loops -split-paths | 328.83 | 0.9949 | -0.5% | [0.984, 1.006] | 0.709 | no measurable difference | 1.0022 | -2.5% | -4.1% |
+| sha256 | bo | 0 | base -O2 -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize +unroll-all-loops -unswitch-loops | 194.51 | 1.0799 | +7.4% | [1.055, 1.087] | 3.39e-06 | faster | 1.1083 | +3.1% | -10.0% |
+| sha256 | bo | 1 | -inline-functions -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops -split-paths | 193.37 | 1.0863 | +7.9% | [1.067, 1.098] | 3.39e-06 | faster | 1.1149 | +3.1% | -5.9% |
+| sha256 | bo | 2 | -inline-functions -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops | 192.39 | 1.0918 | +8.4% | [1.073, 1.102] | 3.39e-06 | faster | 1.1205 | +3.1% | -11.0% |
+| sha256 | random | 0 | base -O2 -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops | 194.94 | 1.0775 | +7.2% | [1.060, 1.089] | 3.39e-06 | faster | 1.1059 | +3.1% | -11.6% |
+| sha256 | random | 1 | base -O2 -inline-small-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops -split-paths | 195.65 | 1.0736 | +6.9% | [1.054, 1.083] | 3.39e-06 | faster | 1.1019 | +3.0% | -1.6% |
+| sha256 | random | 2 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize +unroll-all-loops | 192.49 | 1.0913 | +8.4% | [1.075, 1.103] | 3.39e-06 | faster | 1.1199 | +3.4% | -10.0% |
+| wordfreq | bo | 0 | -inline-functions -inline-small-functions -ipa-cp-clone | 257.07 | 1.0055 | +0.5% | [0.982, 1.017] | 0.868 | no measurable difference | 1.0069 | +0.0% | -1.4% |
+| wordfreq | bo | 1 | base -O2 -inline-functions -optimize-sibling-calls -gcse -tree-slp-vectorize | 255.67 | 1.011 | +1.1% | [0.994, 1.022] | 0.184 | no measurable difference | 1.0124 | -2.0% | -2.4% |
+| wordfreq | bo | 2 | base -O2 -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-slp-vectorize -unswitch-loops -split-paths | 255.46 | 1.0118 | +1.2% | [0.989, 1.025] | 0.455 | no measurable difference | 1.0132 | -2.3% | -3.2% |
+| wordfreq | random | 0 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre | 255.25 | 1.0126 | +1.2% | [0.997, 1.021] | 0.0815 | no measurable difference | 1.0141 | +0.7% | -1.6% |
+| wordfreq | random | 1 | base -O2 -inline-functions -gcse -tree-slp-vectorize -split-paths | 255.83 | 1.0103 | +1.0% | [0.995, 1.026] | 0.147 | no measurable difference | 1.0118 | -2.0% | -2.4% |
+| wordfreq | random | 2 | -inline-small-functions -optimize-sibling-calls -tree-partial-pre -tree-slp-vectorize -unswitch-loops -split-paths | 257.79 | 1.0027 | +0.3% | [0.985, 1.015] | 0.967 | no measurable difference | 1.0041 | +0.0% | -0.9% |
+
+## T3 - Search cost per run (mean over seeds; failures summed)
+
+| benchmark | method | evaluations | unique_binaries | measured_runs | failures | compile_time_s | wall_time_min |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| matmul | bo | 50.0 | 11.3 | 11.3 | 0 | 42.9 | 1.8 |
+| matmul | random | 50.0 | 10.7 | 10.7 | 0 | 44.6 | 1.5 |
+| sort | bo | 50.0 | 35.3 | 35.3 | 0 | 44.5 | 3.4 |
+| sort | random | 50.0 | 31.3 | 31.3 | 0 | 44.6 | 2.9 |
+| search | bo | 50.0 | 33.0 | 33.0 | 0 | 42.6 | 8.8 |
+| search | random | 50.0 | 28.0 | 27.7 | 3 | 45.8 | 17.9 |
+| stencil | bo | 50.0 | 23.0 | 23.0 | 3 | 520.9 | 17.4 |
+| stencil | random | 50.0 | 17.3 | 17.3 | 0 | 48.7 | 3.1 |
+| recursive | bo | 50.0 | 34.3 | 34.3 | 0 | 59.4 | 3.3 |
+| recursive | random | 50.0 | 29.7 | 29.7 | 0 | 50.3 | 2.3 |
+| arith | bo | 50.0 | 11.0 | 11.0 | 0 | 53.3 | 2.4 |
+| arith | random | 50.0 | 11.0 | 11.0 | 0 | 46.1 | 1.8 |
+| compress | bo | 50.0 | 40.0 | 40.0 | 0 | 48.2 | 5.0 |
+| compress | random | 50.0 | 40.3 | 40.3 | 0 | 53.5 | 5.2 |
+| sha256 | bo | 50.0 | 41.0 | 41.0 | 0 | 54.5 | 4.1 |
+| sha256 | random | 50.0 | 42.0 | 42.0 | 0 | 54.8 | 3.7 |
+| wordfreq | bo | 50.0 | 39.0 | 39.0 | 0 | 44.0 | 13.7 |
+| wordfreq | random | 50.0 | 35.7 | 35.7 | 0 | 40.5 | 2.8 |
+
+## T3b - Sample efficiency: best found so far, % faster than the run's own -O3 measurement (search-time numbers, median of seeds)
+
+| benchmark | method | best@10 | best@20 | best@50 | evals to within 1% of final best |
+| --- | --- | --- | --- | --- | --- |
+| matmul | bo | +0.6% | +0.6% | +0.6% | 3.0 |
+| matmul | random | -0.0% | +0.3% | +1.5% | 5.0 |
+| sort | bo | +2.4% | +2.4% | +2.7% | 7.0 |
+| sort | random | +1.7% | +2.0% | +2.7% | 15.0 |
+| search | bo | +1.6% | +1.6% | +1.6% | 3.0 |
+| search | random | +1.2% | +2.8% | +2.8% | 14.0 |
+| stencil | bo | +4.6% | +4.9% | +12.3% | 10.0 |
+| stencil | random | +1.5% | +3.4% | +5.3% | 11.0 |
+| recursive | bo | -0.8% | +10.0% | +14.0% | 22.0 |
+| recursive | random | +0.1% | +12.3% | +13.3% | 16.0 |
+| arith | bo | +0.5% | +1.2% | +1.2% | 2.0 |
+| arith | random | +1.9% | +1.9% | +1.9% | 2.0 |
+| compress | bo | +1.7% | +2.5% | +2.7% | 14.0 |
+| compress | random | +1.6% | +3.2% | +3.5% | 16.0 |
+| sha256 | bo | +4.1% | +8.4% | +8.8% | 19.0 |
+| sha256 | random | +1.8% | +7.4% | +8.3% | 34.0 |
+| wordfreq | bo | +1.6% | +2.7% | +4.0% | 17.0 |
+| wordfreq | random | +0.5% | +0.9% | +2.0% | 11.0 |
+
+## T4 - Best configuration of each run (flags that differ from -O3)
+
+| benchmark | candidate | diff_vs_O3 | search-time change vs -O3 |
+| --- | --- | --- | --- |
+| matmul | bo_s0 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -unswitch-loops -split-paths | +0.2% |
+| matmul | bo_s1 | base -O2 -inline-functions -gcse-after-reload -unswitch-loops -split-paths | +0.6% |
+| matmul | bo_s2 | (same as O3) | +2.9% |
+| matmul | random_s0 | -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -split-paths | -0.0% |
+| matmul | random_s1 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -tree-slp-vectorize | +7.9% |
+| matmul | random_s2 | base -O2 -inline-small-functions -tree-pre -tree-partial-pre -gcse-after-reload -unswitch-loops -split-paths | +1.5% |
+| sort | bo_s0 | -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -split-paths | +3.0% |
+| sort | bo_s1 | -ipa-cp-clone -gcse -tree-pre -tree-partial-pre | +2.4% |
+| sort | bo_s2 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | +2.7% |
+| sort | random_s0 | base -O2 -inline-functions -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -split-paths | +2.0% |
+| sort | random_s1 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -tree-slp-vectorize | +5.1% |
+| sort | random_s2 | -inline-small-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops -split-paths | +2.7% |
+| stencil | bo_s0 | -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | +12.3% |
+| stencil | bo_s1 | -inline-small-functions -gcse -unswitch-loops -split-paths | +4.9% |
+| stencil | bo_s2 | -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -gcse -tree-partial-pre +unroll-all-loops -unswitch-loops | +18.0% |
+| stencil | random_s0 | -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -tree-slp-vectorize -split-paths | +7.9% |
+| stencil | random_s1 | -inline-functions -ipa-cp-clone -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload +unroll-all-loops -unswitch-loops -split-paths | +5.3% |
+| stencil | random_s2 | -inline-small-functions -gcse -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -unswitch-loops -split-paths | +3.4% |
+| recursive | bo_s0 | -ipa-cp-clone -optimize-sibling-calls -tree-partial-pre -gcse-after-reload -tree-slp-vectorize -unswitch-loops | +14.0% |
+| recursive | bo_s1 | -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize | +13.7% |
+| recursive | bo_s2 | -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload | +15.7% |
+| recursive | random_s0 | -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize | +13.7% |
+| recursive | random_s1 | -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize | +13.3% |
+| recursive | random_s2 | -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize | +12.3% |
+| arith | bo_s0 | (same as O3) | +1.2% |
+| arith | bo_s1 | base -O2 -inline-functions -ipa-cp-clone -optimize-sibling-calls -tree-partial-pre -gcse-after-reload -unswitch-loops -split-paths | +1.6% |
+| arith | bo_s2 | -inline-functions -inline-small-functions -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops | +0.0% |
+| arith | random_s0 | base -O2 -inline-functions -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops -split-paths | +0.5% |
+| arith | random_s1 | -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre -gcse-after-reload -tree-slp-vectorize +unroll-all-loops | +1.9% |
+| arith | random_s2 | base -O2 -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | +2.5% |
+| compress | bo_s0 | -inline-functions -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -gcse -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -split-paths | +2.7% |
+| compress | bo_s1 | base -O2 -inline-functions -inline-small-functions -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize -unswitch-loops -split-paths | +2.6% |
+| compress | bo_s2 | base -O2 -tree-pre -tree-partial-pre -tree-loop-vectorize -tree-slp-vectorize -split-paths | +8.9% |
+| compress | random_s0 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | +3.2% |
+| compress | random_s1 | -inline-functions -gcse -tree-pre -tree-partial-pre -tree-slp-vectorize | +3.5% |
+| compress | random_s2 | base -O2 -gcse -unswitch-loops -split-paths | +4.5% |
+| sha256 | bo_s0 | base -O2 -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize +unroll-all-loops -unswitch-loops | +8.8% |
+| sha256 | bo_s1 | -inline-functions -inline-small-functions -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops -split-paths | +8.7% |
+| sha256 | bo_s2 | -inline-functions -inline-small-functions -ipa-cp-clone -optimize-sibling-calls -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops | +9.4% |
+| sha256 | random_s0 | base -O2 -ipa-cp-clone -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops | +8.3% |
+| sha256 | random_s1 | base -O2 -inline-small-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops -split-paths | +7.1% |
+| sha256 | random_s2 | -inline-functions -optimize-sibling-calls -gcse -tree-pre -tree-partial-pre -tree-loop-vectorize +unroll-all-loops | +10.0% |
+| search | bo_s0 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -unswitch-loops -split-paths | +1.6% |
+| search | bo_s1 | (same as O3) | +6.8% |
+| search | bo_s2 | base -O2 -inline-functions -inline-small-functions -gcse -gcse-after-reload -tree-loop-vectorize -tree-slp-vectorize +unroll-all-loops -split-paths | +1.5% |
+| search | random_s0 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre | +2.8% |
+| search | random_s1 | base -O2 -inline-functions -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize +unroll-all-loops -unswitch-loops | +5.2% |
+| search | random_s2 | -inline-small-functions -gcse -tree-pre -tree-partial-pre -gcse-after-reload | +2.5% |
+| wordfreq | bo_s0 | -inline-functions -inline-small-functions -ipa-cp-clone | +2.7% |
+| wordfreq | bo_s1 | base -O2 -inline-functions -optimize-sibling-calls -gcse -tree-slp-vectorize | +4.2% |
+| wordfreq | bo_s2 | base -O2 -inline-functions -inline-small-functions -ipa-cp-clone -gcse -tree-slp-vectorize -unswitch-loops -split-paths | +4.0% |
+| wordfreq | random_s0 | -inline-functions -inline-small-functions -ipa-cp-clone -tree-pre -tree-partial-pre | +0.7% |
+| wordfreq | random_s1 | base -O2 -inline-functions -gcse -tree-slp-vectorize -split-paths | +3.1% |
+| wordfreq | random_s2 | -inline-small-functions -optimize-sibling-calls -tree-partial-pre -tree-slp-vectorize -unswitch-loops -split-paths | +2.0% |
+
+## T5 - Generalization: same binaries on a ~2x larger input (median of seeds)
+
+| benchmark | bo speed-up vs -O3 on larger input | random speed-up vs -O3 on larger input |
+| --- | --- | --- |
+| matmul | 1.0081 | 1.0079 |
+| sort | 1.0152 | 1.0175 |
+| search | 0.9969 | 1.0038 |
+| stencil | 1.0285 | 1.0239 |
+| recursive | 1.2913 | 1.2581 |
+| arith | 0.9873 | 0.9963 |
+| compress | 1.002 | 0.9983 |
+| sha256 | 1.0874 | 1.0711 |
+| wordfreq | 1.0028 | 1.0043 |
+
+## Key statistics
+
+```json
+{
+  "geomean_speedup_vs_O3_bo": 1.0353,
+  "geomean_speedup_vs_O3_random": 1.0333,
+  "verdict_counts": {
+    "bo": {
+      "faster": 6,
+      "no measurable difference": 20,
+      "slower": 1
+    },
+    "random": {
+      "faster": 6,
+      "no measurable difference": 20,
+      "slower": 1
+    }
+  },
+  "total_search_wall_time_h": 5.05,
+  "total_evaluations": 2700,
+  "self_pair_O3_ratio": {
+    "n": 53,
+    "mean": 1.002,
+    "sd": 0.0242,
+    "min": 0.9324,
+    "max": 1.1212
+  },
+  "median_best@20_pct_bo": 2.53,
+  "median_best@50_pct_bo": 3.041,
+  "median_best@20_pct_random": 2.539,
+  "median_best@50_pct_random": 3.401
+}
+```
+
+wrote results/figures/F1_final_comparison.png
+wrote results/figures/F2_convergence.png
+wrote results/figures/F3_flag_sensitivity.png
+wrote results/figures/F4_size_vs_time.png
+exit 0

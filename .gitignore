@@ -1,0 +1,11 @@
+# build outputs and environments
+build/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# per-run failure archives contain binaries
+results/failures/
+config/local.yaml
+benchmarks/custom/
+results/web/

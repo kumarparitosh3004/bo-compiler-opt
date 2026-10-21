@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PassTune</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a5bd7'/%3E%3Cpath d='M7 22l6-7 5 4 7-10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="/static/style.css">
+<script>try { var t = localStorage.getItem("bo-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <a class="logo" href="#/" aria-label="PassTune home">
+      <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2f5fe0"/><path d="M8 21.5l5.5-6 4.5 3.5 6-8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="11" r="2.2" fill="#fff"/></svg>
+      <b>PassTune</b>
+    </a>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot" id="side-foot"><span class="dot"></span>connecting…</div>
+  </aside>
+  <div class="main">
+    <div class="topbar"><div class="topbar-inner">
+      <div class="crumbs" id="crumbs"></div><div class="spacer"></div>
+      <a class="btn primary sm" href="#/optimize" id="top-new">New optimization</a>
+      <button class="icon-btn" id="theme" title="Toggle light / dark theme" aria-label="Toggle theme"></button>
+    </div></div>
+    <main class="content" id="view"><div class="skeleton"></div></main>
+  </div>
+</div>
+<div class="toasts" id="toasts"></div>
+<div class="tooltip" id="tooltip"></div>
+<script src="/static/core.js"></script>
+<script src="/static/pages-run.js"></script>
+<script src="/static/pages-project.js"></script>
+</body>
+</html>

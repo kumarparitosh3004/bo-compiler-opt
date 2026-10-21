@@ -1,0 +1,17 @@
+{
+  "evaluations": 50,
+  "unique_binaries": 42,
+  "measured_runs": 42,
+  "status_counts": {
+    "OK": 50
+  },
+  "total_compile_time_s": 73.81,
+  "search_wall_time_s": 468.21,
+  "t_ref_O3_ns": null,
+  "best_eval_id": 24,
+  "best_key": "01111011111000",
+  "best_flags": "-O2 -fipa-cp-clone -fno-gcse -ftree-partial-pre -fgcse-after-reload",
+  "best_y": -0.046192,
+  "best_pct_faster_than_O3": 4.514,
+  "best_diff_vs_O3": "base -O2 -gcse -unswitch-loops -split-paths"
+}

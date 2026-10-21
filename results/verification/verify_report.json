@@ -1,0 +1,307 @@
+{
+  "compiler": "gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+  "flags": {
+    "inline-functions": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive"
+      ],
+      "active": true
+    },
+    "inline-small-functions": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive"
+      ],
+      "active": true
+    },
+    "ipa-cp-clone": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive"
+      ],
+      "active": true
+    },
+    "optimize-sibling-calls": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive"
+      ],
+      "active": true
+    },
+    "gcse": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "arith",
+        "matmul",
+        "recursive",
+        "search",
+        "sort",
+        "stencil"
+      ],
+      "active": true
+    },
+    "tree-pre": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "arith",
+        "recursive",
+        "search",
+        "sort",
+        "stencil"
+      ],
+      "active": true
+    },
+    "tree-partial-pre": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "arith",
+        "recursive",
+        "sort",
+        "stencil"
+      ],
+      "active": true
+    },
+    "gcse-after-reload": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive",
+        "stencil"
+      ],
+      "active": true
+    },
+    "tree-loop-vectorize": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "matmul",
+        "recursive",
+        "sort",
+        "stencil"
+      ],
+      "active": true
+    },
+    "tree-slp-vectorize": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "matmul",
+        "recursive",
+        "search",
+        "stencil"
+      ],
+      "active": true
+    },
+    "unroll-loops": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 1,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [
+        "rename-registers",
+        "unroll-completely-grow-size",
+        "web"
+      ],
+      "binaries_changed": [],
+      "active": false
+    },
+    "unroll-all-loops": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 0
+      },
+      "side_effects_when_explicit": [
+        "unroll-loops"
+      ],
+      "binaries_changed": [
+        "arith",
+        "matmul",
+        "recursive",
+        "search",
+        "sort",
+        "stencil"
+      ],
+      "active": true
+    },
+    "peel-loops": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "unswitch-loops": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "recursive"
+      ],
+      "active": true
+    },
+    "predictive-commoning": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "split-loops": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "loop-interchange": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "loop-unroll-and-jam": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "tree-loop-distribution": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "version-loops-for-strides": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [],
+      "active": false
+    },
+    "split-paths": {
+      "known": true,
+      "toggle_verified": true,
+      "default": {
+        "O2": 0,
+        "O3": 1
+      },
+      "side_effects_when_explicit": [],
+      "binaries_changed": [
+        "search",
+        "sort"
+      ],
+      "active": true
+    }
+  },
+  "equivalence": {
+    "matmul/O2": true,
+    "matmul/O3": true,
+    "sort/O2": true,
+    "sort/O3": true,
+    "search/O2": true,
+    "search/O3": true,
+    "stencil/O2": true,
+    "stencil/O3": true,
+    "recursive/O2": true,
+    "recursive/O3": true,
+    "arith/O2": true,
+    "arith/O3": true
+  }
+}

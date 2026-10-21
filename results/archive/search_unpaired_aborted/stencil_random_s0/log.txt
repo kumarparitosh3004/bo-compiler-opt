@@ -1,0 +1,17 @@
+13:36:41 [stencil_random_s0] -O3 reference for this run: 231.67 ms
+13:36:41 [stencil_random_s0] 1/50 key=11111111111011 status=OK median=231.7ms y=+0.0000 best=+0.0000
+13:36:44 [stencil_random_s0] 2/50 key=01111100011111 status=OK median=301.1ms y=+0.2620 best=+0.0000
+13:36:47 [stencil_random_s0] 3/50 key=00111010000100 status=OK median=336.6ms y=+0.3735 best=+0.0000
+13:36:53 [stencil_random_s0] 4/50 key=10000010000100 status=OK median=387.2ms y=+0.5136 best=+0.0000
+13:36:59 [stencil_random_s0] 5/50 key=01001100110001 status=OK median=381.6ms y=+0.4991 best=+0.0000
+13:36:59 [stencil_random_s0] 6/50 key=01110011101110 status=OK median=336.6ms y=+0.3735 best=+0.0000 (reused)
+13:37:00 [stencil_random_s0] 7/50 key=01110100010000 status=OK median=381.6ms y=+0.4991 best=+0.0000 (reused)
+13:37:04 [stencil_random_s0] 8/50 key=01111111001011 status=OK median=369.0ms y=+0.4656 best=+0.0000
+13:37:04 [stencil_random_s0] 9/50 key=00111111110101 status=OK median=301.1ms y=+0.2620 best=+0.0000 (reused)
+13:37:07 [stencil_random_s0] 10/50 key=11101000111010 status=OK median=239.3ms y=+0.0325 best=+0.0000
+13:37:10 [stencil_random_s0] 11/50 key=01010000100011 status=OK median=351.6ms y=+0.4173 best=+0.0000
+13:37:11 [stencil_random_s0] 12/50 key=00000011011000 status=OK median=351.6ms y=+0.4173 best=+0.0000 (reused)
+13:37:13 [stencil_random_s0] 13/50 key=11101111110110 status=OK median=242.5ms y=+0.0458 best=+0.0000
+13:37:14 [stencil_random_s0] 14/50 key=01100100111111 status=OK median=301.1ms y=+0.2620 best=+0.0000 (reused)
+13:37:17 [stencil_random_s0] 15/50 key=10001100111011 status=OK median=245.2ms y=+0.0567 best=+0.0000
+13:37:22 [stencil_random_s0] 16/50 key=11100000001011 status=OK median=371.5ms y=+0.4723 best=+0.0000

@@ -1,0 +1,51 @@
+03:25:30 [arith_bo_s2] 1/50 key=11111111111011 status=OK median=409.9ms y=+0.0121 best=+0.0121
+03:25:37 [arith_bo_s2] 2/50 key=10010010001001 status=OK median=414.6ms y=-0.0003 best=-0.0003
+03:25:43 [arith_bo_s2] 3/50 key=00011000011010 status=OK median=408.6ms y=+0.0046 best=-0.0003
+03:25:50 [arith_bo_s2] 4/50 key=11101110001100 status=OK median=432.0ms y=+0.0450 best=-0.0003
+03:25:51 [arith_bo_s2] 5/50 key=01011100011000 status=OK median=408.6ms y=+0.0046 best=-0.0003 (reused)
+03:25:58 [arith_bo_s2] 6/50 key=11011000011100 status=OK median=416.6ms y=+0.0014 best=-0.0003
+03:26:04 [arith_bo_s2] 7/50 key=00111011011100 status=OK median=426.9ms y=+0.0267 best=-0.0003
+03:26:11 [arith_bo_s2] 8/50 key=01111110000000 status=OK median=409.1ms y=+0.0036 best=-0.0003
+03:26:12 [arith_bo_s2] 9/50 key=10000111001011 status=OK median=409.9ms y=+0.0121 best=-0.0003 EI=5.85e-04 (reused)
+03:26:14 [arith_bo_s2] 10/50 key=10010010011001 status=OK median=414.6ms y=-0.0003 best=-0.0003 EI=4.38e-04 (reused)
+03:26:15 [arith_bo_s2] 11/50 key=11011010011000 status=OK median=414.6ms y=-0.0003 best=-0.0003 EI=5.35e-04 (reused)
+03:26:35 [arith_bo_s2] 12/50 key=10111100100110 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=6.39e-04
+03:26:37 [arith_bo_s2] 13/50 key=10100000101010 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=3.25e-04 (reused)
+03:26:40 [arith_bo_s2] 14/50 key=00101110100001 status=OK median=409.1ms y=+0.0036 best=-0.0003 EI=3.28e-04 (reused)
+03:26:51 [arith_bo_s2] 15/50 key=01100011111011 status=OK median=742.3ms y=+0.0043 best=-0.0003 EI=3.53e-04
+03:26:54 [arith_bo_s2] 16/50 key=11010011111001 status=OK median=742.3ms y=+0.0043 best=-0.0003 EI=4.01e-04 (reused)
+03:27:07 [arith_bo_s2] 17/50 key=01001111001110 status=OK median=746.0ms y=+0.0088 best=-0.0003 EI=3.42e-04
+03:27:09 [arith_bo_s2] 18/50 key=10000000010001 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=2.87e-04 (reused)
+03:27:12 [arith_bo_s2] 19/50 key=10000011110111 status=OK median=426.9ms y=+0.0267 best=-0.0003 EI=2.48e-04 (reused)
+03:27:24 [arith_bo_s2] 20/50 key=00100010111100 status=OK median=753.1ms y=+0.0180 best=-0.0003 EI=2.46e-04
+03:27:27 [arith_bo_s2] 21/50 key=10011100000110 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=1.51e-04 (reused)
+03:27:29 [arith_bo_s2] 22/50 key=01011110000000 status=OK median=409.1ms y=+0.0036 best=-0.0003 EI=1.42e-04 (reused)
+03:27:33 [arith_bo_s2] 23/50 key=11111011010110 status=OK median=426.9ms y=+0.0267 best=-0.0003 EI=0.00e+00 (reused)
+03:27:35 [arith_bo_s2] 24/50 key=01000010010110 status=OK median=753.1ms y=+0.0180 best=-0.0003 EI=9.80e-05 (reused)
+03:27:38 [arith_bo_s2] 25/50 key=10010110011001 status=OK median=409.1ms y=+0.0036 best=-0.0003 EI=1.36e-04 (reused)
+03:27:41 [arith_bo_s2] 26/50 key=01111100000101 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=7.52e-05 (reused)
+03:27:43 [arith_bo_s2] 27/50 key=00010111001011 status=OK median=409.9ms y=+0.0121 best=-0.0003 EI=7.33e-05 (reused)
+03:27:46 [arith_bo_s2] 28/50 key=10000110011111 status=OK median=432.0ms y=+0.0450 best=-0.0003 EI=6.67e-05 (reused)
+03:27:49 [arith_bo_s2] 29/50 key=00100100110110 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=1.84e-04 (reused)
+03:27:52 [arith_bo_s2] 30/50 key=01101100111001 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=5.75e-05 (reused)
+03:27:54 [arith_bo_s2] 31/50 key=01101011001101 status=OK median=426.9ms y=+0.0267 best=-0.0003 EI=0.00e+00 (reused)
+03:27:57 [arith_bo_s2] 32/50 key=00010000000011 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:00 [arith_bo_s2] 33/50 key=10001100011111 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=0.00e+00 (reused)
+03:28:03 [arith_bo_s2] 34/50 key=10011100100011 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:06 [arith_bo_s2] 35/50 key=10101000010000 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:09 [arith_bo_s2] 36/50 key=00110000110101 status=OK median=416.6ms y=+0.0014 best=-0.0003 EI=0.00e+00 (reused)
+03:28:13 [arith_bo_s2] 37/50 key=01001110100111 status=OK median=432.0ms y=+0.0450 best=-0.0003 EI=0.00e+00 (reused)
+03:28:16 [arith_bo_s2] 38/50 key=10011110101011 status=OK median=409.1ms y=+0.0036 best=-0.0003 EI=0.00e+00 (reused)
+03:28:19 [arith_bo_s2] 39/50 key=10001010111100 status=OK median=753.1ms y=+0.0180 best=-0.0003 EI=0.00e+00 (reused)
+03:28:23 [arith_bo_s2] 40/50 key=01001100011000 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:25 [arith_bo_s2] 41/50 key=11011011011000 status=OK median=742.3ms y=+0.0043 best=-0.0003 EI=8.80e-05 (reused)
+03:28:28 [arith_bo_s2] 42/50 key=11100100001010 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:32 [arith_bo_s2] 43/50 key=10011111001101 status=OK median=746.0ms y=+0.0088 best=-0.0003 EI=6.89e-05 (reused)
+03:28:34 [arith_bo_s2] 44/50 key=01110010101100 status=OK median=753.1ms y=+0.0180 best=-0.0003 EI=0.00e+00 (reused)
+03:28:37 [arith_bo_s2] 45/50 key=00110000100110 status=OK median=416.6ms y=+0.0014 best=-0.0003 EI=0.00e+00 (reused)
+03:28:40 [arith_bo_s2] 46/50 key=01110000000110 status=OK median=416.6ms y=+0.0014 best=-0.0003 EI=0.00e+00 (reused)
+03:28:47 [arith_bo_s2] 47/50 key=11101100001111 status=OK median=744.9ms y=+0.0086 best=-0.0003 EI=0.00e+00 (reused)
+03:28:49 [arith_bo_s2] 48/50 key=10000000110010 status=OK median=408.6ms y=+0.0046 best=-0.0003 EI=0.00e+00 (reused)
+03:28:52 [arith_bo_s2] 49/50 key=01011010100111 status=OK median=753.1ms y=+0.0180 best=-0.0003 EI=5.44e-05 (reused)
+03:28:57 [arith_bo_s2] 50/50 key=11011111111000 status=OK median=409.9ms y=+0.0121 best=-0.0003 EI=4.99e-05 (reused)
+03:28:58 [arith_bo_s2] best y=-0.0003 (+0.03% vs -O3 during search) flags: -inline-functions -inline-small-functions -optimize-sibling-calls -gcse -tree-partial-pre -gcse-after-reload -tree-loop-vectorize -unswitch-loops

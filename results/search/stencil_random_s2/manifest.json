@@ -1,0 +1,73 @@
+{
+  "experiment_id": "stencil_random_s2",
+  "benchmark": "stencil",
+  "args": [
+    "1024",
+    "400"
+  ],
+  "method": "random",
+  "seed": 2,
+  "budget": 50,
+  "n_init": 8,
+  "bo": {
+    "xi": 0.01,
+    "pool_size": 2000,
+    "top_k_neighbours": 5,
+    "gp_restarts": 5
+  },
+  "failure_penalty": 1.0,
+  "search_reps": 5,
+  "warmup": 1,
+  "t_ref_O3_ns": null,
+  "run_timeout_s": 24.518998,
+  "fixed_flags": [
+    "-Wl,--no-insert-timestamp"
+  ],
+  "flags": [
+    "inline-functions",
+    "inline-small-functions",
+    "ipa-cp-clone",
+    "optimize-sibling-calls",
+    "gcse",
+    "tree-pre",
+    "tree-partial-pre",
+    "gcse-after-reload",
+    "tree-loop-vectorize",
+    "tree-slp-vectorize",
+    "unroll-all-loops",
+    "unswitch-loops",
+    "split-paths"
+  ],
+  "objective": "y = ln(median per-round time ratio to a paired -O3 build)",
+  "base_levels": [
+    "-O2",
+    "-O3"
+  ],
+  "dim": 14,
+  "env": {
+    "timestamp": "2026-10-16T03:14:45",
+    "git_commit": null,
+    "compiler": "C:/mingw64/bin/gcc.exe",
+    "compiler_version": "gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "cpu_count": 16,
+    "python": "3.12.5",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "PyYAML": "6.0.3",
+      "pytest": "9.1.1"
+    },
+    "file_hashes": {
+      "config\\flags_gcc.yaml": "eb8ff50b0fc89f64",
+      "benchmarks\\stencil\\stencil.c": "f02b8b2135d06ca6"
+    }
+  },
+  "resumed_at": [],
+  "finished_at": "2026-10-16T03:18:28"
+}

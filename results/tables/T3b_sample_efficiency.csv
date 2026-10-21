@@ -1,0 +1,19 @@
+benchmark,method,best@10,best@20,best@50,evals to within 1% of final best
+matmul,bo,+0.6%,+0.6%,+0.6%,3.0
+matmul,random,-0.0%,+0.3%,+1.5%,5.0
+sort,bo,+2.4%,+2.4%,+2.7%,7.0
+sort,random,+1.7%,+2.0%,+2.7%,15.0
+search,bo,+1.6%,+1.6%,+1.6%,3.0
+search,random,+1.2%,+2.8%,+2.8%,14.0
+stencil,bo,+4.6%,+4.9%,+12.3%,10.0
+stencil,random,+1.5%,+3.4%,+5.3%,11.0
+recursive,bo,-0.8%,+10.0%,+14.0%,22.0
+recursive,random,+0.1%,+12.3%,+13.3%,16.0
+arith,bo,+0.5%,+1.2%,+1.2%,2.0
+arith,random,+1.9%,+1.9%,+1.9%,2.0
+compress,bo,+1.7%,+2.5%,+2.7%,14.0
+compress,random,+1.6%,+3.2%,+3.5%,16.0
+sha256,bo,+4.1%,+8.4%,+8.8%,19.0
+sha256,random,+1.8%,+7.4%,+8.3%,34.0
+wordfreq,bo,+1.6%,+2.7%,+4.0%,17.0
+wordfreq,random,+0.5%,+0.9%,+2.0%,11.0
